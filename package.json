@@ -9,13 +9,16 @@
     "glitch",
     "template"
   ],
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
     "build": "eleventy",
     "start": "eleventy --serve"
   },
   "dependencies": {
-    "@11ty/eleventy": "0.12.1"
+    "@11ty/eleventy": "^2.0.0"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "license": "MIT"
 }
