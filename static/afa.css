@@ -1,8 +1,33 @@
+/* Pink Light scheme (Default) */
+/* Can be forced with data-theme="light" */
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --background-color: #fcfcfc;
+  --color: #4e4b4e;
+  --primary: #9001ad;
+  --primary-hover: #7c0187;
+  --primary-focus: rgba(216, 27, 96, 0.125);
+  --primary-inverse: #FFF;
+}
+
+body > main {
+    --block-spacing-vertical: calc(var(--spacing));
+}
+
+article header {
+    min-height: 100px;
+    background-image: url('/assets/imgs/banner_caro_horizontal_2.jpg');
+}
+
 .width-small {
     display: block;
 }
 .width-wide {
     display: none;
+}
+
+body header nav img {
+    max-width: 100%;
 }
 
 @media (min-width: 768px) {
@@ -11,5 +36,15 @@
     }
     .width-wide {
         display: block;
+    }
+
+    body header nav img {
+        max-width: 400px;
+    }
+
+
+    article header {
+        min-height: 200px;
+        background-image: url('/assets/imgs/banner_caro_horizontal.jpg');
     }
 }

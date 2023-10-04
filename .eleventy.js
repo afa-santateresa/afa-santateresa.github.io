@@ -28,7 +28,8 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addPassthroughCopy({
     "static/*": "assets/",
-    "static/css/*": "assets/css/"
+    "static/css/*": "assets/css/",
+    "static/imgs/*": "assets/imgs/"
   });
 
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
