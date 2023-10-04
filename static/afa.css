@@ -1,0 +1,15 @@
+.width-small {
+    display: block;
+}
+.width-wide {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .width-small {
+        display: none;
+    }
+    .width-wide {
+        display: block;
+    }
+}

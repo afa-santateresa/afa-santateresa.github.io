@@ -20,5 +20,8 @@
   "engines": {
     "node": "14.x"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "markdown-it-anchor": "^8.6.7"
+  }
 }

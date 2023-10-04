@@ -1,11 +1,48 @@
 <!doctype html>
-<html lang="ca">
+<html lang="ca" data-theme="light">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ pageTitle or siteData.name }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="/assets/afa.css">
   </head>
   <body>
-    {{ content | safe }}
+    <main class="container">
+    <header>
+      <nav>
+        <ul>
+          <li><strong>{{ siteData.name }}</strong></li>
+        </ul>
+        <ul>
+          <li class="width-wide"><a href="/#contacte">Contacte</a></li>
+          <li class="width-wide"><a href="/#qui-som">Qui som</a></li>
+          <li class="width-wide"><a href="/#qu%C3%A9-es-l'afa">Qué es l'AFA</a></li>
+          <li class="width-small">
+              <details role="list" dir="rtl">
+                  <summary aria-haspopup="listbox">
+                      Seccions
+                  </summary>
+                  <ul role="listbox">
+                      <li role="option"><a href="/#contacte">Contacte</a></li>
+                      <li role="option"><a href="/#qui-som">Qui som</a></li>
+                      <li role="option"><a href="/#qu%C3%A9-es-l'afa">Qué es l'AFA</a></li>
+                  </ul>
+              </details>
+          </li>
+      </ul>
+      </nav>
+    </header>
+    <article>
+      <header>
+        <h1>
+          {{pageTitle}}
+        </h1>
+      </header>
+      <main>
+        {{ content | safe }}
+      </main>
+    </article>
+    </main>
   </body>
 </html>
