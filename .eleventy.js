@@ -2,6 +2,7 @@
 const markdownIt = require("markdown-it")
 const markdownItAnchor = require("markdown-it-anchor")
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+const { DateTime } = require("luxon");
 
 
 module.exports = function(eleventyConfig) {
@@ -33,6 +34,13 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+
+  eleventyConfig.addFilter("asPostDate", (dateObj) => {
+    return DateTime
+      .fromJSDate(dateObj)
+      .setLocale('ca')
+      .toLocaleString(DateTime.DATE_MED);
+   });
 
   return {
     dir: {

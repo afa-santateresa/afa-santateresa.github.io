@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ description | safe | trim }}">
     <title>{{ pageTitle or siteData.name }}</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <link rel="stylesheet" href="/assets/afa.css">
@@ -14,23 +15,25 @@
         <ul>
           <li>
             <a href="/">
-              <img src="/assets/imgs/logo_afa_color_500.png"/>
+              <img alt="Logo de l'AFA" src="/assets/imgs/logo_afa_color_500.png"/>
             </a>
           </li>
         </ul>
         <ul>
-          <li class="width-wide"><a href="/#contacte">Contacte</a></li>
-          <li class="width-wide"><a href="/#qui-som">Qui som</a></li>
-          <li class="width-wide"><a href="/#qu%C3%A9-es-l'afa">Qué es l'AFA</a></li>
+          <li class="width-wide"><a href="/">Inici</a></li>
+          <li class="width-wide"><a href="/que-fem">Què fem</a></li>
+          <li class="width-wide"><a href="/qui-som">Qui som</a></li>
+          <li class="width-wide"><a href="/que-es-l-afa">Qué es l'AFA</a></li>
           <li class="width-small">
               <details role="list" dir="rtl">
                   <summary aria-haspopup="listbox">
                       Seccions
                   </summary>
                   <ul role="listbox">
-                      <li role="option"><a href="/#contacte">Contacte</a></li>
-                      <li role="option"><a href="/#qui-som">Qui som</a></li>
-                      <li role="option"><a href="/#qu%C3%A9-es-l'afa">Qué es l'AFA</a></li>
+                      <li role="option"><a href="/">Inici</a></li>
+                      <li role="option"><a href="/que-fem">Què fem</a></li>
+                      <li role="option"><a href="/qui-som">Qui som</a></li>
+                      <li role="option"><a href="/que-es-l-afa">Qué es l'AFA</a></li>
                   </ul>
               </details>
           </li>
@@ -44,6 +47,8 @@
         </h1>
       </header>
       <main>
+        <p>Actualitzat a {{ updated | asPostDate }}</p>
+
         {{ content | safe }}
       </main>
     </article>
