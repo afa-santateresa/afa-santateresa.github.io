@@ -1,10 +1,11 @@
 ---
 layout: layouts/default.njk
-pageTitle: Qui som
 permalink: /qui-som
-updated: 2023-10-04
-description: >
+titol: Qui som
+descripcio: >
     Directori de persones a càrrec de la associació
+actualitzat: 2023-10-04
+versio: 1
 ---
 
 > ⚠ Textos per actualitzar

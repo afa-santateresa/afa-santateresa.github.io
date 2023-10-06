@@ -1,7 +1,7 @@
 ---
 layout: layouts/default.njk
-pageTitle: Documents de l'AFA
 permalink: /documents/
+titol: Documents de l'AFA
 ---
 
 ## Curs 2018 / 2019

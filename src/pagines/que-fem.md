@@ -1,13 +1,14 @@
 ---
 layout: layouts/default.njk
-pageTitle: Què fem
 permalink: /que-fem
-updated: 2023-10-04
+titol: Què fem
 description: >
   Llistat de grups de treball i dades de contacte
+actualitzat: 2023-10-04
+versio: 1
 ---
 
-> ⚠ Ací aniran els detalles de les diferents comissions, inclouent les dades de contacte
+> ⚠ Ací aniran els detalles de les diferents comissions, incloent les dades de contacte
 
 Comissions de treball
 

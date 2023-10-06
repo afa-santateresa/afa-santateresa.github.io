@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ description | safe | trim }}">
-    <title>{{ pageTitle or siteData.name }}</title>
+    <meta name="version" content="{{versio}}">
+    <title>{{ titol or siteData.name }}</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <link rel="stylesheet" href="/assets/afa.css">
   </head>
@@ -47,7 +48,7 @@
         </h1>
       </header>
       <main>
-        <p>Actualitzat a {{ updated | asPostDate }}</p>
+        <p>Actualitzat a {{ actualitzat | comAData }}</p>
 
         {{ content | safe }}
       </main>

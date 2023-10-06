@@ -35,7 +35,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
-  eleventyConfig.addFilter("asPostDate", (dateObj) => {
+  eleventyConfig.addFilter("comAData", (dateObj) => {
     return DateTime
       .fromJSDate(dateObj)
       .setLocale('ca')
