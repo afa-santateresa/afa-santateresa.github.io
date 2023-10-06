@@ -48,7 +48,9 @@
         </h1>
       </header>
       <main>
-        <p>Actualitzat a {{ actualitzat | comAData }}</p>
+        <p>Actualitzat a <span data-tooltip="Versió {{ versio }}"  data-placement="bottom">
+        {{ actualitzat | comAData }}
+        </span></p>
 
         {{ content | safe }}
       </main>

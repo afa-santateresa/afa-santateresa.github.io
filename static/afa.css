@@ -30,6 +30,13 @@ body header nav img {
     max-width: 100%;
 }
 
+[data-tooltip]:not(a, button, input){
+    border-bottom: none;
+    cursor: inherit;
+}
+
+/* Media queries */
+
 @media (min-width: 768px) {
     .width-small {
         display: none;
