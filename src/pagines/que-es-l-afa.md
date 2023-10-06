@@ -1,6 +1,6 @@
 ---
 layout: layouts/default.njk
-permalink: /que-es-l-afa
+permalink: /que-es-l-afa/
 titol: Qué es l'AFA
 descripcio: >
     Una llista detallada de les tasques que fan les AFA a les escoles i com qualsevol

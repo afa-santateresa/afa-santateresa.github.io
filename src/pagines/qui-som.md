@@ -1,6 +1,6 @@
 ---
 layout: layouts/default.njk
-permalink: /qui-som
+permalink: /qui-som/
 titol: Qui som
 descripcio: >
     Directori de persones a càrrec de la associació

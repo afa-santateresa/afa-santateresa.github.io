@@ -1,6 +1,6 @@
 ---
 layout: layouts/default.njk
-permalink: /que-fem
+permalink: /que-fem/
 titol: Què fem
 description: >
   Llistat de grups de treball i dades de contacte
