@@ -35,6 +35,19 @@ body header nav img {
     cursor: inherit;
 }
 
+
+.toc li {
+    margin: 5px;
+    padding: 3px 7px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid blue;
+    border-color: var(--secondary);
+    border-radius: 5px;
+}
+.toc li a {
+    color: var(--secondary);
+}
+
 /* Media queries */
 
 @media (min-width: 768px) {
@@ -53,5 +66,9 @@ body header nav img {
     article header {
         min-height: 200px;
         background-image: url('/assets/imgs/banner_caro_horizontal.jpg');
+    }
+
+    .toc li {
+        background-color: rgba(255, 255, 255, 0.6);
     }
 }

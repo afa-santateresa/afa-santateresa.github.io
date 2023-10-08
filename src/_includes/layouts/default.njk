@@ -46,6 +46,11 @@
         <h1>
           {{titol}}
         </h1>
+        {% if content | toc %}
+          <nav>
+            {{ content | toc | safe }}
+          </nav>
+        {% endif %}
       </header>
       <main>
         <p>Actualitzat a <span data-tooltip="Versió {{ versio }}"  data-placement="bottom">

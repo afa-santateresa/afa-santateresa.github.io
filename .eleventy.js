@@ -1,7 +1,10 @@
 // docs: https://www.11ty.io/docs/config/
-const markdownIt = require("markdown-it")
-const markdownItAnchor = require("markdown-it-anchor")
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+
+const markdownIt = require("markdown-it");
+const markdownItAnchor = require("markdown-it-anchor");
+const pluginTOC = require('eleventy-plugin-toc');
+
 const { DateTime } = require("luxon");
 
 
@@ -34,6 +37,7 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+  eleventyConfig.addPlugin(pluginTOC);
 
   eleventyConfig.addFilter("comAData", (dateObj) => {
     return DateTime
