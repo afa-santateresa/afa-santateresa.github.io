@@ -1,0 +1,7 @@
+[
+    { "url": "/", "titol": "Inici" },
+    { "url": "/que-fem/", "titol": "Què fem" },
+    { "url": "/qui-som/", "titol": "Qui som" },
+    { "url": "/que-es-l-afa/", "titol": "Què es l'AFA"} ,
+    { "url": "/documents/", "titol": "Documents" }
+]

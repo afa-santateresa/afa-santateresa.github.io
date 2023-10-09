@@ -1,0 +1,19 @@
+---
+layout: layouts/default.njk
+permalink: /documents/
+titol: Documents de l'AFA
+descripcio: Llistat de documents com memòries, resums de consells, etc.
+actualitzat: 2023-10-05
+versio: 1
+---
+
+{% if documents %}
+{% for doc in documents %}
+<h3>{{doc.curs}}</h3>
+<ul>
+    {% for doc in doc.documents %}
+    <li> {{doc.data}} | <a data-tooltip="{{doc.tipus}}" href="{{doc.url}}">{{doc.titol}}</a> </li>
+   {% endfor %}
+</ul>
+{% endfor %}
+{% endif %}

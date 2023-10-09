@@ -21,20 +21,18 @@
           </li>
         </ul>
         <ul>
-          <li class="width-wide"><a href="/">Inici</a></li>
-          <li class="width-wide"><a href="/que-fem/">Què fem</a></li>
-          <li class="width-wide"><a href="/qui-som/">Qui som</a></li>
-          <li class="width-wide"><a href="/que-es-l-afa/">Qué es l'AFA</a></li>
+          {% for seccio in seccions %}
+          <li class="width-wide"><a href="{{seccio.url}}">{{ seccio.titol }}</a></li>
+          {% endfor %}
           <li class="width-small">
               <details role="list" dir="rtl">
                   <summary aria-haspopup="listbox">
                       Seccions
                   </summary>
                   <ul role="listbox">
-                      <li role="option"><a href="/">Inici</a></li>
-                      <li role="option"><a href="/que-fem/">Què fem</a></li>
-                      <li role="option"><a href="/qui-som/">Qui som</a></li>
-                      <li role="option"><a href="/que-es-l-afa/">Qué es l'AFA</a></li>
+                      {% for seccio in seccions %}
+                      <li role="option"><a href="{{seccio.url}}">{{ seccio.titol }}</a></li>
+                      {% endfor %}
                   </ul>
               </details>
           </li>
