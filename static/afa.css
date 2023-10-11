@@ -19,6 +19,16 @@ article header {
     background-image: url('/assets/imgs/banner_caro_horizontal_2.jpg');
 }
 
+article.comissio header {
+    background-image: url('/assets/imgs/banner_caro_horizontal_4.jpg');
+    min-height: 70px;
+}
+article.comissio header h2 {
+    color: var(--color);
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
 .width-small {
     display: block;
 }
@@ -68,6 +78,10 @@ body header nav img {
         background-image: url('/assets/imgs/banner_caro_horizontal.jpg');
     }
 
+    article.comissio header {
+        min-height: .5em;
+        background-image: url('/assets/imgs/banner_caro_horizontal_3.jpg')
+    }
     .toc li {
         background-color: rgba(255, 255, 255, 0.6);
     }

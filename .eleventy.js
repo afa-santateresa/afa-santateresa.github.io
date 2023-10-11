@@ -6,7 +6,7 @@ const markdownItAnchor = require("markdown-it-anchor");
 const pluginTOC = require('eleventy-plugin-toc');
 
 const { DateTime } = require("luxon");
-
+const yaml = require("js-yaml");
 
 module.exports = function(eleventyConfig) {
   // Options for the `markdown-it` library
@@ -45,6 +45,9 @@ module.exports = function(eleventyConfig) {
       .setLocale('ca')
       .toLocaleString(DateTime.DATE_MED);
    });
+
+
+  eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
 
   return {
     dir: {

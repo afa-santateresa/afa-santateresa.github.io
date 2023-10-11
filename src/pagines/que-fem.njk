@@ -1,0 +1,32 @@
+---
+layout: layouts/default.njk
+permalink: /que-fem/
+titol: Què fem
+description: >
+  Llistat de grups de treball i dades de contacte
+actualitzat: 2023-10-11
+versio: 2
+---
+
+Aquestes son les comissions en les que l'AFA coordina les diferents activitats de l'escola. Per cada comissió teniu un correu de contacte.
+
+
+{% for comissio in comissions %}
+<article class="comissio" id="{{ comissio.id  }}">
+<header>
+<h2>{{comissio.icona}} {{ comissio.nom }}</h2>
+</header>
+<p>
+{{ comissio.descripcio | safe }}
+</p>
+<footer>
+
+<p class="email"> 📬 
+  {% for email in comissio.email %}
+  <a href="mailto:{{ email }}">{{ email }}</a>{{ "" if loop.last else ", " }}
+  {% endfor %}
+</p>  
+
+</footer>
+</article>
+{% endfor %}
