@@ -9,7 +9,7 @@ versio: 1
 
 > ⚠ Textos en definició, disculpa les molèsties, contacta el AFA per a qualsevol consulta.
 
-Benvinguda o benvingut a la web de l'Associació de Famílies del CEIP Santa Teresa. Ací trobareu informació rellevant sobre [qué fem](/que-fem), [qui som](/qui-som), dades de contacte, i [documents](/documents) rellevants de la associació.
+Benvinguda o benvingut a la web de l'Associació de Famílies del CEIP Santa Teresa. Ací trobareu informació rellevant sobre [qué fem](/que-fem), [qui som](/qui-som) i dades de contacte.
 
 ## Contacte
 
