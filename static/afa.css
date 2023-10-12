@@ -14,6 +14,10 @@ body > main {
     --block-spacing-vertical: calc(var(--spacing));
 }
 
+nav.toc  ol  ol{
+    display: none;
+}
+
 article header {
     min-height: 100px;
     background-image: url('/assets/imgs/banner_caro_horizontal_2.jpg');

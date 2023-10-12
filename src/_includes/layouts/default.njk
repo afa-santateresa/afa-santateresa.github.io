@@ -45,9 +45,7 @@
           {{titol}}
         </h1>
         {% if content | toc %}
-          <nav>
             {{ content | toc | safe }}
-          </nav>
         {% endif %}
       </header>
       <main>
