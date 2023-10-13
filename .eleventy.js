@@ -33,7 +33,8 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({
     "static/*": "assets/",
     "static/css/*": "assets/css/",
-    "static/imgs/*": "assets/imgs/"
+    "static/imgs/*": "assets/imgs/",
+    "static/admin/*": "admin/"
   });
 
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
@@ -44,6 +45,13 @@ module.exports = function(eleventyConfig) {
       .fromJSDate(dateObj)
       .setLocale('ca')
       .toLocaleString(DateTime.DATE_MED);
+   });
+
+
+  eleventyConfig.addFilter("comAny", (dateObj) => {
+    return DateTime
+      .fromJSDate(dateObj)
+      .toFormat('yyyy')
    });
 
 

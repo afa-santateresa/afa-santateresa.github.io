@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: afa-santateresa/afa-santateresa.github.io
+  branch: main
+
+media_folder: static/imgs
+public_folder: assets/imgs
+
+collections:
+  - name: "pagina"
+    label: "Pàgina"
+    folder: "src/pagines"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Tipus", name: "layout", widget: "hidden", default: "layout/default.njk"}
+      - {label: "Descripció", name: "descripcio", widget: "text"}
+      - {label: "Títol", name: "titol", widget: "string"}
+      - {label: "Adreça", name: "permalink", widget: "string"}
+      - {label: "Actualitzat", name: "actualitzat", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD"}
+      - {label: "Versió", name: "versio", widget: "number", default: 1, value_type: "int"}
+      - {label: "Contingut", name: "body", widget: "markdown"}

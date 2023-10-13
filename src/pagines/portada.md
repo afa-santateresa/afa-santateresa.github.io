@@ -9,7 +9,6 @@ versio: 3
 
 Benvinguda o benvingut a la web de l'Associació de Famílies del CEIP Santa Teresa. Ací trobareu informació rellevant sobre l'AFA, el col·legi, [qué fem](/que-fem) i [qui som](/qui-som).
 
-
 ## El Santa Teresa
 
 ### 📓 Dades bàsiques
@@ -30,11 +29,9 @@ Per al curs 2023-2024:
   * De dilluns a dijous: De 09:00 a 12:45h i de 15:00h a 16:30h
   * Divendres: De 09:00 a 13:00h
 
-
 ## Contacta amb l'AFA
 
 Si tens qualsevol dubte, suggeriment, proposta, idea, o el que siga. No ho dubtes i **contacta** amb nosaltres. Estarem **encantats** d’ajudar-te! Així mateix, pots estar al dia de les activitats de l'AFA al nostre canal de **Telegram**.
-
 
 * 📧 <santateresa.ampa@gmail.com>
 * 📢 <https://t.me/AFACEIPSANTATERESA>

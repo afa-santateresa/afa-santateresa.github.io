@@ -56,6 +56,22 @@
         {{ content | safe }}
       </main>
     </article>
+    <footer class="container">
+      <small>
+        <nav>
+          <ul>
+            <li>
+              {{ siteData.name }}
+            </li>
+          </ul>
+          <ul>
+            <li>              
+              <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca">{{ page.date | comAny }}&copy;</a>
+            </li>
+          </ul>
+        </nav>
+      </small>
+    </footer>
     </main>
   </body>
 </html>
