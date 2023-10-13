@@ -7,7 +7,7 @@ actualitzat: 2023-10-12
 versio: 3
 ---
 
-Benvinguda o benvingut a la web de l'Associació de Famílies del CEIP Santa Teresa. Ací trobareu informació rellevant sobre l'AFA, el col·legi, [qué fem](/que-fem) i [qui som](/qui-som).
+Benvinguda o benvingut a la web de l'Associació de Familiars d'Alumnes del CEIP Santa Teresa. Ací trobareu informació rellevant sobre l'AFA, el col·legi, [qué fem](/que-fem) i [qui som](/qui-som).
 
 ## El Santa Teresa
 
