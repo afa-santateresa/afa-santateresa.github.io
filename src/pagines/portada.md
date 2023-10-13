@@ -33,13 +33,11 @@ Per al curs 2023-2024:
 
 ## Contacta amb l'AFA
 
-Si tens qualsevol dubte, suggeriment, proposta, idea, o el que siga. No ho dubtes i **contacta** amb nosaltres. Estarem **encantats** d’ajudar-te!
+Si tens qualsevol dubte, suggeriment, proposta, idea, o el que siga. No ho dubtes i **contacta** amb nosaltres. Estarem **encantats** d’ajudar-te! Així mateix, pots estar al dia de les activitats de l'AFA al nostre canal de **Telegram**.
 
-<santateresa.ampa@gmail.com>
 
-Pots estar al dia de les activitats de l'AFA al nostre canal de **Telegram**
-
-<https://t.me/AFACEIPSANTATERESA>
+* 📧 <santateresa.ampa@gmail.com>
+* 📢 <https://t.me/AFACEIPSANTATERESA>
 
 El **compte** de l'AFA a *ARQUIA* és:
 
