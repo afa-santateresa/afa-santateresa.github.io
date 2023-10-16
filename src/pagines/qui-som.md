@@ -4,30 +4,28 @@ permalink: /qui-som/
 titol: Qui som
 descripcio: >
     Directori de persones a càrrec de la associació
-actualitzat: 2023-10-04
-versio: 1
+actualitzat: 2023-10-16
+versio: 2
 ---
 
-> ⚠ Textos per actualitzar
+## Directiva
 
-### Directiva
-
-* President: Diego Díaz
-* Vicepresidenta: Paula Roselló
-* Secretària: Mar Monsonís
-* Tresorera: Inés Bacigalupe
+* Presidenta: María Dolores Almela Simarro
+* Vicepresident: Carles Marqués Palacios
+* Secretària: Cinta Espino Narváez
+* Tresorera: Laura Jane Sutton
 * Vocals: 
-  * Rosa Ribera
-  * Sònia Lluch
-  * Cristina Pepiol
-  * Marina Martínez
-  * Raquel Tortosa
-  * Miquel Serrano
-  * Pilar Valero
-  * Àfrica Pons
-  * Jodie Dinapoli
+  * Vivian Campbell Sanjurjo
+  * Mar Riera Spiegelhalder
+  * Raquel Tortosa Lis
+  * Paola Natalia Franco
+  * Keru Romero García
+  * Samuel Francisco Ortí García
+  * Ana Carrión Roger
 
-### Consell Escolar
+[Acta de la renovació de la junta el 17 de Juny de 2021](/assets/docs/2021-06-17-canvi-junta.pdf).
+
+## Consell Escolar
 
 * Toni Peris
 * Estela Martínez

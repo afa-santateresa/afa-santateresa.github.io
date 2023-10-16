@@ -34,6 +34,7 @@ module.exports = function(eleventyConfig) {
     "static/*": "assets/",
     "static/css/*": "assets/css/",
     "static/imgs/*": "assets/imgs/",
+    "static/docs/*": "assets/docs/",
     "static/admin/*": "admin/"
   });
 
