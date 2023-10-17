@@ -27,12 +27,11 @@ versio: 2
 
 ## Consell Escolar
 
-* Toni Peris
-* Estela Martínez
-* Mónica Fernández
-* Javier Guillén
-* Rosana Soler
-* Rosa Ribera
-* Max Gigling
-* Rafael Latre
-* Clara Boj (representant AFA)
+* Cristina Pepiol
+* Raquel Tortosa
+* Teresa
+* Cinta Espino Narváez
+* Mado Almela
+* Ana Albiach
+* Eva Sanjuán
+* Carles Marqués (representant de l'AFA)
