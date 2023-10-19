@@ -2,6 +2,7 @@ backend:
   name: github
   repo: afa-santateresa/afa-santateresa.github.io
   branch: main
+  base_url: https://afa-auth.fly.dev/
 
 media_folder: static/imgs
 public_folder: assets/imgs
