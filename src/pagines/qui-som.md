@@ -1,9 +1,9 @@
 ---
 layout: layouts/default.njk
-permalink: /qui-som/
+descripcio: |
+  Directori de persones a càrrec de la associació
 titol: Qui som
-descripcio: >
-    Directori de persones a càrrec de la associació
+permalink: /qui-som/
 actualitzat: 2023-10-16
 versio: 2
 ---
@@ -29,7 +29,7 @@ versio: 2
 
 * Cristina Pepiol
 * Raquel Tortosa
-* Teresa
+* Teresa Penalba
 * Cinta Espino Narváez
 * Mado Almela
 * Ana Albiach
