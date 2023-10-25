@@ -1,5 +1,9 @@
-# eleventy-on-glitch
+# Web de l'AFA del CEIP Santa Teresa
 
-`eleventy-on-glitch` is a starter template for the [11ty](https://11ty.io) static site generator on [glitch.com](https://glitch.com).
+Aquesta es una web estàtica desenvolupada amb el generador [Eleeventy](https://www.11ty.dev/).
 
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/remix/https://glitch.com/~eleventy-on-glitch)
+Hi ha només una plantilla per als continguts, algunes de les dades se'n generen des de la carpeta `src/_data` i la resta del contingut es troba a `src/pagines`.
+
+Per qualsevol consulta pots contactar creant una incidència (_issue_) o contactant amb l'AFA.
+
+[Jorge Sanz](https://jorgesanz.net)
