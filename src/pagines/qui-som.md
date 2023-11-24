@@ -4,8 +4,8 @@ descripcio: |
   Directori de persones a càrrec de la associació
 titol: Qui som
 permalink: /qui-som/
-actualitzat: 2023-10-25
-versio: 3
+actualitzat: 2023-10-24
+versio: 4
 ---
 
 ## Directiva
@@ -29,9 +29,11 @@ versio: 3
 
 * Cristina Pepiol
 * Raquel Tortosa
-* Teresa Penalba
 * Cinta Espino Narváez
 * Mado Almela
 * Ana Albiach
-* Eva Sanjuán
-* Carles Marqués (representant de l'AFA)
+* Eva Pablos
+* Mar Riera
+* Santiago Sánchez
+* Mercé Coves 
+* Paola Franco (representant de l'AFA)
