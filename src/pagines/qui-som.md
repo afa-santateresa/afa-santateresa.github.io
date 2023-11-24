@@ -27,13 +27,12 @@ versio: 4
 
 ## Consell Escolar
 
-* Cristina Pepiol
 * Raquel Tortosa
 * Cinta Espino Narváez
 * Mado Almela
-* Ana Albiach
+* Anna Albiach
 * Eva Pablos
 * Mar Riera
 * Santiago Sánchez
-* Mercé Coves 
+* Mercè Coves
 * Paola Franco (representant de l'AFA)
