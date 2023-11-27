@@ -4,8 +4,8 @@ descripcio: |
   Directori de persones a càrrec de la associació
 titol: Qui som
 permalink: /qui-som/
-actualitzat: 2023-10-24
-versio: 4
+actualitzat: 2023-10-27
+versio: 5
 ---
 
 ## Directiva
@@ -15,24 +15,24 @@ versio: 4
 * Secretària: Cinta Espino Narváez
 * Tresorera: Laura Jane Sutton
 * Vocals: 
-  * Vivian Campbell Sanjurjo
-  * Mar Riera Spiegelhalder
-  * Raquel Tortosa Lis
-  * Paola Natalia Franco
-  * Keru Romero García
-  * Samuel Francisco Ortí García
   * Ana Carrión Roger
+  * Keru Romero García
+  * Mar Riera Spiegelhalder
+  * Paola Natalia Franco
+  * Raquel Tortosa Lis
+  * Samuel Francisco Ortí García
+  * Vivian Campbell Sanjurjo
 
 [Acta de la renovació de la junta el 17 de Juny de 2021](/assets/docs/2021-06-17-canvi-junta.pdf).
 
 ## Consell Escolar
 
-* Raquel Tortosa
-* Cinta Espino Narváez
-* Mado Almela
 * Anna Albiach
+* Cinta Espino Narváez
 * Eva Pablos
+* Mado Almela
 * Mar Riera
-* Santiago Sánchez
 * Mercè Coves
-* Paola Franco (representant de l'AFA)
+* Paola Franco
+* Raquel Tortosa
+* Santiago Sánchez
