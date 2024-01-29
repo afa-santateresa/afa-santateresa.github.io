@@ -5,7 +5,7 @@ descripcio: |
 titol: Qui som
 permalink: /qui-som/
 actualitzat: 2023-10-27
-versio: 5
+versio: 6
 ---
 
 ## Directiva
@@ -23,7 +23,7 @@ versio: 5
   * Samuel Francisco Ortí García
   * Vivian Campbell Sanjurjo
 
-[Acta de la renovació de la junta el 17 de Juny de 2021](/assets/docs/2021-06-17-canvi-junta.pdf).
+[Acta de la renovació de la junta el 17 de juny de 2021](/assets/docs/2021-06-17-canvi-junta.pdf).
 
 ## Consell Escolar
 
