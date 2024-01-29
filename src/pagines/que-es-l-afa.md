@@ -5,7 +5,7 @@ titol: Què es l'AFA
 descripcio: >
     Una llista detallada de les tasques que fan les AFA a les escoles i com qualsevol
     pare, mare, o familiar, pot col.laborar.
-actualitzat: 2023-10-04
+actualitzat: 2024-01-29
 versio: 2
 ---
 

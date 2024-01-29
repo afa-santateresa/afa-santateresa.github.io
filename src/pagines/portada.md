@@ -4,7 +4,7 @@ descripcio: Pàgina d'inici de la web de l'AFA del CEIP Santa Teresa amb una
   introducció a la associació i les dades de contacte.
 titol: Benvinguts
 permalink: /
-actualitzat: 2023-10-12
+actualitzat: 2024-01-29
 versio: 4
 ---
 Benvinguda o benvingut al web de l'Associació de Familiars d'Alumnes del CEIP Santa Teresa. Ací trobareu informació rellevant sobre l'AFA, el col·legi, [què fem](/que-fem) i [qui som](/qui-som).

@@ -4,7 +4,7 @@ descripcio: |
   Directori de persones a càrrec de la associació
 titol: Qui som
 permalink: /qui-som/
-actualitzat: 2023-10-27
+actualitzat: 2024-01-29
 versio: 6
 ---
 
