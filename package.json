@@ -20,7 +20,7 @@
     "dotenv": "^16.4.4",
     "eleventy-plugin-toc": "^1.1.5",
     "js-yaml": "^4.1.0",
-    "luxon": "^3.4.4",
+    "luxon": "^3.5.0",
     "markdown-it-anchor": "^9.0.0"
   },
   "engines": {
