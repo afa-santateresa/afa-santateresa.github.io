@@ -4,26 +4,23 @@ descripcio: |
   Directori de persones a càrrec de la associació
 titol: Qui som
 permalink: /qui-som/
-actualitzat: 2024-01-29
-versio: 6
+actualitzat: 2024-10-16
+versio: 7
 ---
 
 ## Directiva
 
-* Presidenta: María Dolores Almela Simarro
-* Vicepresident: Carles Marqués Palacios
-* Secretària: Cinta Espino Narváez
-* Tresorera: Laura Jane Sutton
+* President: Vicent Badia Navarro
+* Vicepresidenta: Esther López Barceló
+* Secretari:  Carlos Pedro Reig López
+* Tresorera: Zenaida González Pavía
 * Vocals: 
-  * Ana Carrión Roger
-  * Keru Romero García
-  * Mar Riera Spiegelhalder
-  * Paola Natalia Franco
-  * Raquel Tortosa Lis
-  * Samuel Francisco Ortí García
-  * Vivian Campbell Sanjurjo
+  * Andreu Sambonet Esteve
+  * Rafael Vicent Xambó Olmos
+  * Mar Peralta Belinchon
 
-[Acta de la renovació de la junta el 17 de juny de 2021](/assets/docs/2021-06-17-canvi-junta.pdf).
+[Acta de la renovació de la junta el 10 d'Octubre de 2024](/assets/docs/2024-10-10-acta-afa.pdf).
+
 
 ## Consell Escolar
 
