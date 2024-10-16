@@ -14,8 +14,8 @@ versio: 7
 * Vicepresidenta: Esther López Barceló
 * Secretari:  Carlos Pedro Reig López
 * Tresorera: Zenaida González Pavía
-* Vocals: 
-  * Andreu Sambonet Esteve
+* Tresorer: Andreu Sambonet Esteve
+* Vocals:
   * Rafael Vicent Xambó Olmos
   * Mar Peralta Belinchon
 
