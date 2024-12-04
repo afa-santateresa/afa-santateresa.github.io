@@ -1,0 +1,19 @@
+---
+layout: layout/default.njk
+tags: post
+curs: 24-25
+titol: Stickers!
+date: 2024-09-27
+versio: 1
+---
+![](/assets/imgs/2024-09-27-mel-de-romer.jpg)
+
+Bona vesprada famílies!!!
+
+Esta setmana ens actualitzem els stickers per al Whatsapp i Telegram que son 🍯 de romer i en valencià
+
+<https://lletraferit.com/jorn-a-jorn/la-diputacio-de-valencia-llanca-una-colleccio-de-stickers-digitals/>
+
+Idea promoguda per la Diputació de València, on l'encarregat de difondre-la serà l'influent valencià Apitxat
+
+Au, cacau!!! 🥜
