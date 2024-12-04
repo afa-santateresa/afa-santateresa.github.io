@@ -14,6 +14,8 @@
     <title>{{ titol or siteData.name }}</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <link rel="stylesheet" href="/assets/css/afa.css">
+
+    <link rel="alternate" type="application/atom+xml" href="/feed.xml" />
   </head>
   <body>
     <main class="container">
@@ -55,9 +57,17 @@
         {% endif %}
       </header>
       <main>
+        {% if actualitzat %}
         <p>Actualitzat a <span data-tooltip="Versió {{ versio }}"  data-placement="bottom">
-        {{ actualitzat | comAData }}
+        <time datetime="{{actualitzat | comADataISO}}">{{ actualitzat | comAData }}</time>
         </span></p>
+        {% endif %}
+        {% if date %}
+        <p> <span data-tooltip="Versió {{ versio }}"  data-placement="bottom">
+          <time datetime="{{date | comADataISO}}">{{ date | comAData }}</time>
+        </span></p>
+        {% endif %}
+
 
         {{ content | safe }}
       </main>
@@ -72,7 +82,7 @@
           </ul>
           <ul>
             <li>              
-              <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca">{{ page.date | comAny }}&copy;</a>
+              <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca">{{ page.date | comAny }}&copy;</a> 
             </li>
           </ul>
         </nav>
