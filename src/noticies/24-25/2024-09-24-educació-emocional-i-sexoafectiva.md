@@ -1,5 +1,5 @@
 ---
-layout: layout/default.njk
+layout: layouts/default.njk
 tags: post
 curs: 24-25
 title: Educació emocional i sexoafectiva
