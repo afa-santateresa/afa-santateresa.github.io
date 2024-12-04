@@ -3,7 +3,7 @@ layout: layouts/default.njk
 tags: 
     - post
     - lectura
-titol: Racó de la Llengua
+title: Racó de la Llengua
 date: 2024-10-15
 curs: 24-25
 versio: 1

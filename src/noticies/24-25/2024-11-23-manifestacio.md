@@ -4,7 +4,7 @@ tags:
     - post
     - RoviraDimissió
     - MazonDimissió
-titol: Manifestació llei Rovira
+title: Manifestació llei Rovira
 date: 2024-11-23
 curs: 24-25
 versio: 1

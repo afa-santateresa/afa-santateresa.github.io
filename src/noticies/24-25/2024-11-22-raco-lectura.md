@@ -3,7 +3,7 @@ layout: layouts/default.njk
 tags: 
     - post
     - lectura
-titol: Racó de lectura de novembre
+title: Racó de lectura de novembre
 date: 2024-11-22
 curs: 24-25
 versio: 1

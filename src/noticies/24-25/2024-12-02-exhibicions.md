@@ -1,7 +1,7 @@
 ---
 layout: layouts/default.njk
 tags: post
-titol: Exhibicions a l'escola
+title: Exhibicions a l'escola
 date: 2024-12-02
 curs: 24-25
 versio: 1

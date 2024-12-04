@@ -2,7 +2,7 @@
 layout: layouts/default.njk
 tags: 
     - post
-titol: "Horta-cuina 2024/2025"
+title: "Horta-cuina 2024/2025"
 date: 2024-10-15
 curs: 24-25
 versio: 1

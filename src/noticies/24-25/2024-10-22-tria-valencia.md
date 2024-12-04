@@ -5,7 +5,7 @@ tags:
     - MarcaSíAlValencià 
     - SíAlValencià 
     - FamíliespelValencià
-titol: Tria valencià
+title: Tria valencià
 date: 2024-10-22
 curs: 24-25
 versio: 1

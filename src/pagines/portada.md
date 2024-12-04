@@ -2,7 +2,7 @@
 layout: layouts/default.njk
 descripcio: Pàgina d'inici de la web de l'AFA del CEIP Santa Teresa amb una
   introducció a la associació i les dades de contacte.
-titol: Benvinguts
+title: Benvinguts
 permalink: /
 actualitzat: 2024-09-23
 versio: 5

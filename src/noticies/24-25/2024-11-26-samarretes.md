@@ -2,7 +2,7 @@
 layout: layouts/default.njk
 tags: 
     - post
-titol: Samarretes i desuadores 2024-2025
+title: Samarretes i desuadores 2024-2025
 date: 2024-11-26
 curs: 24-25
 versio: 1

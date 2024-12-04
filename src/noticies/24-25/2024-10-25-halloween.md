@@ -2,7 +2,7 @@
 layout: layouts/default.njk
 tags: 
     - post
-titol: Halloween
+title: Halloween
 date: 2024-10-25
 curs: 24-25
 versio: 1

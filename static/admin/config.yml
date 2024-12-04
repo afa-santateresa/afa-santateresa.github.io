@@ -16,7 +16,7 @@ collections:
     fields:
       - {label: "Tipus", name: "layout", widget: "hidden", default: "layout/default.njk"}
       - {label: "Descripció", name: "descripcio", widget: "text"}
-      - {label: "Títol", name: "titol", widget: "string"}
+      - {label: "Títol", name: "title", widget: "string"}
       - {label: "Adreça", name: "permalink", widget: "string"}
       - {label: "Actualitzat", name: "actualitzat", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD"}
       - {label: "Versió", name: "versio", widget: "number", default: 1, value_type: "int"}
@@ -26,12 +26,12 @@ collections:
     label: "Notícia curs 24-25"
     folder: "src/noticies/24-25"
     create: true
-    slug: "{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Tipus", name: "layout", widget: "hidden", default: "layout/default.njk"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "post"}
       - {label: "Curs", name: "curs", widget: "hidden", default: "24-25"}
-      - {label: "Títol", name: "titol", widget: "string"}
+      - {label: "Títol", name: "title", widget: "string"}
       - {label: "Data", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD"}
       - {label: "Versió", name: "versio", widget: "number", default: 1, value_type: "int"}
       - {label: "Contingut", name: "body", widget: "markdown"}

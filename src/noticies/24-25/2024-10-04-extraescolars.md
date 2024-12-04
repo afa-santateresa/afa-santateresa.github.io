@@ -2,7 +2,7 @@
 layout: layouts/default.njk
 tags: 
     - post
-titol: Extraescolars
+title: Extraescolars
 date: 2024-10-04
 curs: 24-25
 versio: 1

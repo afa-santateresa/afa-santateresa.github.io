@@ -1,8 +1,8 @@
 import { DateTime } from "luxon";
 
 export default {
-	permalink: function ( { date, titol } ) {
-		return `/noticies/${DateTime.fromJSDate(date).toFormat('yyyy/MM')}/${this.slugify(titol)}/`;
+	permalink: function ( { date, title } ) {
+		return `/noticies/${DateTime.fromJSDate(date).toFormat('yyyy/MM')}/${this.slugify(title)}/`;
 	},
 };
 

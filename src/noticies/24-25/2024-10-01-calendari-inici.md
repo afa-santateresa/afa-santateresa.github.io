@@ -2,7 +2,7 @@
 layout: layouts/default.njk
 tags: 
     - post
-titol: Calendari d'inici extraescolars 
+title: Calendari d'inici extraescolars 
 date: 2024-10-01
 curs: 24-25
 versio: 1

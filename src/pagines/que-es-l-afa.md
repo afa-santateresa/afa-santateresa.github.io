@@ -1,7 +1,7 @@
 ---
 layout: layouts/default.njk
 permalink: /que-es-l-afa/
-titol: Què es l'AFA
+title: Què es l'AFA
 descripcio: >
     Una llista detallada de les tasques que fan les AFA a les escoles i com qualsevol
     pare, mare, o familiar, pot col.laborar.

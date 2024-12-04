@@ -2,7 +2,7 @@
 layout: layouts/default.njk
 tags: 
     - post
-titol: Suport per la DANA
+title: Suport per la DANA
 date: 2024-11-29
 curs: 24-25
 versio: 1

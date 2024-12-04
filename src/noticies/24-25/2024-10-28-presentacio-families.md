@@ -2,7 +2,7 @@
 layout: layouts/default.njk
 tags: 
     - post
-titol: Acte presentació Famílies pel valencià
+title: Acte presentació Famílies pel valencià
 date: 2024-10-28
 curs: 24-25
 versio: 1

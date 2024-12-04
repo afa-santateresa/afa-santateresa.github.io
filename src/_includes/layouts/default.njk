@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
 
-    <title>{{ titol or siteData.name }}</title>
+    <title>{{ title or siteData.name }}</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <link rel="stylesheet" href="/assets/css/afa.css">
 
@@ -50,7 +50,7 @@
     <article>
       <header>
         <h1>
-          {{titol}}
+          {{title}}
         </h1>
         {% if content | toc %}
             {{ content | toc | safe }}

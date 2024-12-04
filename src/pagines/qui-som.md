@@ -2,7 +2,7 @@
 layout: layouts/default.njk
 descripcio: |
   Directori de persones a càrrec de la associació
-titol: Qui som
+title: Qui som
 permalink: /qui-som/
 actualitzat: 2024-10-16
 versio: 7

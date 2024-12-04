@@ -2,7 +2,7 @@
 layout: layouts/default.njk
 tags: 
     - post
-titol: Mares i pares comensals
+title: Mares i pares comensals
 date: 2024-11-26
 curs: 24-25
 versio: 1
