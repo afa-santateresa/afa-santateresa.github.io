@@ -14,7 +14,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Tipus", name: "layout", widget: "hidden", default: "layout/default.njk"}
+      - {label: "Tipus", name: "layout", widget: "hidden", default: "layouts/default.njk"}
       - {label: "Descripció", name: "descripcio", widget: "text"}
       - {label: "Títol", name: "title", widget: "string"}
       - {label: "Adreça", name: "permalink", widget: "string"}
@@ -28,7 +28,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Tipus", name: "layout", widget: "hidden", default: "layout/default.njk"}
+      - {label: "Tipus", name: "layout", widget: "hidden", default: "layouts/default.njk"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "post"}
       - {label: "Curs", name: "curs", widget: "hidden", default: "24-25"}
       - {label: "Títol", name: "title", widget: "string"}
