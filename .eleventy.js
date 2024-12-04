@@ -4,12 +4,12 @@ import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import pluginTOC from "eleventy-plugin-toc";
+import pluginRss from "@11ty/eleventy-plugin-rss";
 
 import { DateTime } from "luxon";
 import yaml from "js-yaml";
 
-
-export default async function(eleventyConfig) {
+export default async function (eleventyConfig) {
   // Options for the `markdown-it` library
   const markdownItOptions = { html: false };
 
@@ -41,6 +41,8 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   eleventyConfig.addPlugin(pluginTOC);
+  eleventyConfig.addPlugin(pluginRss);
+
 
   eleventyConfig.addFilter("comAData", (dateObj) => {
     return DateTime.fromJSDate(dateObj)
@@ -48,11 +50,58 @@ export default async function(eleventyConfig) {
       .toLocaleString(DateTime.DATE_MED);
   });
 
+  eleventyConfig.addFilter("comADataCurta", (dateObj) => {
+    return DateTime.fromJSDate(dateObj)
+      .setLocale("ca")
+      .toLocaleString(DateTime.DATE_MED); //.toFormat("yyyy-MM-dd")
+  });
+
+  eleventyConfig.addFilter("comADataISO", (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toISODate();
+  });
+
   eleventyConfig.addFilter("comAny", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toFormat("yyyy");
   });
 
+  eleventyConfig.addFilter("comAMesIDia", (dateObj) => {
+    return DateTime.fromJSDate(dateObj)
+      .setLocale("ca")
+      .toFormat("DDD")
+      .replace(` del ${dateObj.getFullYear()}`, "");
+  });
+
   eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
+
+  eleventyConfig.addCollection("postsByYear", (collection) => {
+    const posts = collection.getFilteredByTag("post").reverse();
+    const years = posts.map((post) => post.date.getFullYear());
+    const uniqueYears = [...new Set(years)];
+
+    const postsByYear = uniqueYears.reduce((prev, year) => {
+      const filteredPosts = posts.filter(
+        (post) => post.date.getFullYear() === year
+      );
+
+      return [...prev, [year, filteredPosts]];
+    }, []);
+
+    return postsByYear;
+  });
+
+  eleventyConfig.addCollection("postsPerCurs", (collection) => {
+    const posts = collection.getFilteredByTag("post").reverse();
+    const cursos = posts.map((post) => post.data.curs);
+    const uniqueCursos = [...new Set(cursos)];
+
+    const postsPerCurs = uniqueCursos.reduce((prev, curs) => {
+      const filteredPosts = posts.filter((post) => post.data.curs === curs);
+
+      return [...prev, [curs, filteredPosts]];
+    }, []);
+
+    return postsPerCurs;
+  });
 
   return {
     dir: {
@@ -60,4 +109,4 @@ export default async function(eleventyConfig) {
       output: "dist",
     },
   };
-};
+}
