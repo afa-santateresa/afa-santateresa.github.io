@@ -44,6 +44,11 @@ body header nav img {
     max-width: 100%;
 }
 
+.container main p.data {
+    font-style: italic;
+    font-size: smaller;
+}
+
 [data-tooltip]:not(a, button, input){
     border-bottom: none;
     cursor: inherit;

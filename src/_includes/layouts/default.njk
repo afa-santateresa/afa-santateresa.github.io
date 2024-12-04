@@ -57,17 +57,18 @@
         {% endif %}
       </header>
       <main>
+        <p class="data">
         {% if actualitzat %}
-        <p>Actualitzat a <span data-tooltip="Versió {{ versio }}"  data-placement="bottom">
+        Actualitzat a <span data-tooltip="Versió {{ versio }}"  data-placement="bottom">
         <time datetime="{{actualitzat | comADataISO}}">{{ actualitzat | comAData }}</time>
-        </span></p>
+        </span>
         {% endif %}
         {% if date %}
-        <p> <span data-tooltip="Versió {{ versio }}"  data-placement="bottom">
+        <span data-tooltip="Versió {{ versio }}"  data-placement="bottom">
           <time datetime="{{date | comADataISO}}">{{ date | comAData }}</time>
-        </span></p>
+        </span>
         {% endif %}
-
+        </p>
 
         {{ content | safe }}
       </main>
