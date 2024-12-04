@@ -7,7 +7,17 @@ permalink: /
 actualitzat: 2024-09-23
 versio: 5
 ---
+
 Benvinguda o benvingut al web de l'Associació de Familiars d'Alumnes del CEIP Santa Teresa. Ací trobareu informació rellevant sobre l'AFA, el col·legi, [què fem](/que-fem) i [qui som](/qui-som).
+
+## Últimes notícies de l'AFA
+
+{% assign posts = collections.post | reverse  | slice: 0, 5%}
+{% for post in posts%}
+* [{{ post.data.title }}]({{ post.url }}) - {{ post.date | comAMesIDia}}
+{%- endfor %}
+
+[Accedir a totes les notícies](/noticies)
 
 ## El Santa Teresa
 

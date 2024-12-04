@@ -57,6 +57,7 @@
         {% endif %}
       </header>
       <main>
+        {% if actualitzat or date %}
         <p class="data">
         {% if actualitzat %}
         Actualitzat a <span data-tooltip="Versió {{ versio }}"  data-placement="bottom">
@@ -69,6 +70,7 @@
         </span>
         {% endif %}
         </p>
+        {% endif %}
 
         {{ content | safe }}
       </main>
