@@ -11,7 +11,7 @@ import yaml from "js-yaml";
 
 export default async function (eleventyConfig) {
   // Options for the `markdown-it` library
-  const markdownItOptions = { html: false };
+  const markdownItOptions = { html: true };
 
   // Options for the `markdown-it-anchor` library
   const markdownItAnchorOptions = { permalink: false };
@@ -101,6 +101,13 @@ export default async function (eleventyConfig) {
     }, []);
 
     return postsPerCurs;
+  });
+
+  eleventyConfig.addShortcode("youtube", (videoURL, title) => {
+    const url = new URL(videoURL);
+    const id = url.searchParams.get("v");
+    return `
+    <iframe class="youtube-video" src="https://www.youtube.com/embed/${id}" title="${title}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
   });
 
   return {

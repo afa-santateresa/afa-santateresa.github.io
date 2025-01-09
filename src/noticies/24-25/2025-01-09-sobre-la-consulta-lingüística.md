@@ -10,6 +10,6 @@ Prompte arribarà el moment de votar en la consulta lingüística i des de l'AFA
 
 Per a qualsevol dubte, no dubteu a contactar amb [l'AFA](https://afasantateresa.es/) o directament amb [Famílies pel valencià](https://familiespelvalencia.org). Gràcies!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Nge0z-posmk?si=2ywDhg1B_bfqXxRq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% youtube "https://www.youtube.com/watch?v=Nge0z-posmk", "Consulta lingüística" %}
 
 També en [castellà](https://youtu.be/eD0SKgyvhnc?si=iQJJndY5LhXddCjJ).

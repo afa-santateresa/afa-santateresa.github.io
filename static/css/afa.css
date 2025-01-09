@@ -95,3 +95,8 @@ body header nav img {
         background-color: rgba(255, 255, 255, 0.6);
     }
 }
+
+.youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
