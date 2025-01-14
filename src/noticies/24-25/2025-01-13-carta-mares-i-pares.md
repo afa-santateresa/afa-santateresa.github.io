@@ -10,6 +10,6 @@ Bona vesprada i freda!!!!
 
 📖 Des del racó de lectura vos proposem una lectura per a les famílies que han de triar la 👅 llengua en què han d'aprendre els seus fills i filles
 
-https://www.informacion.es/opinion/2025/01/11/carta-pares-mares-113285159.html
+<https://www.informacion.es/opinion/2025/01/11/carta-pares-mares-113285159.html>
 
 I un motiu per seguir aprenent en valencià.
