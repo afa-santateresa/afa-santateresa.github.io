@@ -8,6 +8,10 @@ versio: 1
 ---
 ![Cartell de compte enrere](/assets/imgs/2025-02-25-votacio.jpg)
 
+> **🙋 Important!! 🙋**
+>
+> VOTACIÓ VALENCIÀ: si es fa des del mòbil i no es gira la pantalla en **horitzontal**, no es veu bé l’opció marcada i ix per defecte en castellà!
+
 Passos a seguir:
 
 1. Entreu a la pàgina web de la consulta: <https://portal.edu.gva.es/consulta/es/informacio-es/>
