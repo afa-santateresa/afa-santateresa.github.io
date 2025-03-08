@@ -46,7 +46,7 @@ Si tens qualsevol dubte, suggeriment, proposta, idea o el que siga no ho dubtes 
 * 📧 <santateresa.ampa@gmail.com>
 * 📢 <https://t.me/AFACEIPSANTATERESA>
 
-🏦 El **compte** de l'AFA a *ARQUIA* és:
+🏦 El **compte** de l'AFA a *Caixa Popular* és:
 
 ```
 ES62 3159 0066 9830 7529 3823
