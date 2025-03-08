@@ -5,7 +5,7 @@ descripcio: Pàgina d'inici de la web de l'AFA del CEIP Santa Teresa amb una
 title: Benvinguts
 permalink: /
 actualitzat: 2024-09-23
-versio: 5
+versio: 6
 ---
 
 Benvinguda o benvingut al web de l'Associació de Familiars d'Alumnes del CEIP Santa Teresa. Ací trobareu informació rellevant sobre l'AFA, el col·legi, [què fem](/que-fem) i [qui som](/qui-som).
@@ -49,7 +49,7 @@ Si tens qualsevol dubte, suggeriment, proposta, idea o el que siga no ho dubtes 
 🏦 El **compte** de l'AFA a *ARQUIA* és:
 
 ```
-ES62 3159 0066 9830 7529 3823.
+ES62 3159 0066 9830 7529 3823
 ```
 
 ## Web 2014-2019
