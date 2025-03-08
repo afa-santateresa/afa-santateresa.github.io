@@ -49,7 +49,7 @@ Si tens qualsevol dubte, suggeriment, proposta, idea o el que siga no ho dubtes 
 🏦 El **compte** de l'AFA a *ARQUIA* és:
 
 ```
-ES14 3183 4600 8710 1358 7827
+ES62 3159 0066 9830 7529 3823.
 ```
 
 ## Web 2014-2019
