@@ -6,6 +6,8 @@ title: Samarretes Trobada!!!
 date: 2025-03-25
 versio: 1
 ---
+![Foto cartell samarretes](/assets/imgs/2025-03-25-cartell-trobades.jpg)
+
 Famílies, volem dir-vos que les samarretes es repartiran la primera setmana d'abril i que el proper 13 d'abril 🗓 celebrarem la Trobada d'Escoles en Valencià a 📍Benifaraig (València) amb el lema: **"En valencià, lliures i amb orgull"** 💛💪🏻. 
 
 Tindrem actuacions musicals 🎶, farem tallers 🎨 i passarem un dia festiu 🎉 i molt divertit 🤗 amb les nostres famílies i els nostres amics i amigues. 
