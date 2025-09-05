@@ -23,14 +23,14 @@ collections:
       - {label: "Contingut", name: "body", widget: "markdown"}
 
   - name: "noticia"
-    label: "Notícia curs 24-25"
-    folder: "src/noticies/24-25"
+    label: "Notícia curs 25-26"
+    folder: "src/noticies/25-26"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Tipus", name: "layout", widget: "hidden", default: "layouts/default.njk"}
       - {label: "Tags", name: "tags", widget: "hidden", default: "post"}
-      - {label: "Curs", name: "curs", widget: "hidden", default: "24-25"}
+      - {label: "Curs", name: "curs", widget: "hidden", default: "25-26"}
       - {label: "Títol", name: "title", widget: "string"}
       - {label: "Data", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD"}
       - {label: "Versió", name: "versio", widget: "number", default: 1, value_type: "int"}
