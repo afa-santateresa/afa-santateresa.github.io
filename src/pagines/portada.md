@@ -4,8 +4,8 @@ descripcio: Pàgina d'inici de la web de l'AFA del CEIP Santa Teresa amb una
   introducció a la associació i les dades de contacte.
 title: Benvinguts
 permalink: /
-actualitzat: 2024-09-23
-versio: 6
+actualitzat: 2025-09-05
+versio: 7
 ---
 
 Benvinguda o benvingut al web de l'Associació de Familiars d'Alumnes del CEIP Santa Teresa. Ací trobareu informació rellevant sobre l'AFA, el col·legi, [què fem](/que-fem) i [qui som](/qui-som).
@@ -23,16 +23,17 @@ Benvinguda o benvingut al web de l'Associació de Familiars d'Alumnes del CEIP S
 
 ### 📓 Dades bàsiques
 
-* 📫 **Adreça**: Carrer de l'Hort d'en Cendra, 13, 46003, València
+* 📫 **Adreça**: Carrer de l'Hort d'en Cendra, 3, 46003, València
 * ☎ **Telèfon**: [962 566 740](tel:+34962566740)
 * 📧 **Correu centre**: <46012136@edu.gva.es>
 * 📧 **Correu menjador**: <menjadorceipsantateresa@gmail.com>
 * 📢 **Telegram**: <https://t.me/ceipsantateresa>
-* 🌐 **Web**: <https://ceice.gva.es/es/web/centros-docentes/ficha-centro?codi=46012136>
+* 🌐 **Web**:  <https://portal.edu.gva.es/santateresavalencia/>
+* 🌐 **Fitxa centre**: <https://ceice.gva.es/es/web/centros-docentes/ficha-centro?codi=46012136>
 
 ### 🗓 Horari
 
-Per al curs 2024-2025:
+Per al curs 2025-2026:
 
 * Setembre i juny: De 09:00 a 13:00 h
 * D’octubre a maig:
