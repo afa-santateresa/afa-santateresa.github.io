@@ -1,3 +1,13 @@
 {
-  "name": "Associació de Familiars d'Alumnes del CEIP Santa Teresa"
+  "name": "Associació de Familiars d'Alumnes del CEIP Santa Teresa",
+  "metadata": {
+    "title": "AFA Santa Teresa",
+    "description": "Associació de Familiars d'Alumnes del CEIP Santa Teresa de València",
+    "author": "AFA Santa Teresa",
+    "keywords": "AFA, Santa Teresa, CEIP, València, Escola, Famílies, Alumnes, Associació, Educació",
+    "lang": "ca",
+    "locale": "ca_ES",
+    "base": "https://afasantateresa.es",
+    "banner": "assets/imgs/banner_caro_horizontal.jpg"
+  }
 }

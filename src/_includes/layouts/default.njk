@@ -1,10 +1,6 @@
 <!doctype html>
 <html lang="ca" data-theme="light">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ description | safe | trim }}">
-    <meta name="version" content="{{versio}}">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
@@ -16,6 +12,32 @@
     <link rel="stylesheet" href="/assets/css/afa.css">
 
     <link rel="alternate" type="application/atom+xml" href="/feed.xml" />
+
+    <!-- metadata -->
+    <meta name="version" content="{{versio}}">
+    {%if image %}
+    <meta property="og:image" content="{{ image }}" />
+    {% else %}
+    <meta property="og:image" content="{{ siteData.metadata.banner }}" />
+    {%endif %}
+    {% metagen
+        title             = title,
+        desc              = description,
+        version           = version,
+        url               = siteData.metadata.base + page.url,
+        type              = type,
+        site_name         = siteData.metadata.name,
+        og_image_width    = image.width,
+        og_image_height   = image.height,
+        og_image_alt      = image.alt,
+        og_image_type     = image.type,
+        twitter_card_type = "summary_large_image",
+        name              = author.name,
+        generator         = 'eleventy',
+        preconnect        = [siteData.metadata.base],
+        dns_prefetch      = [siteData.metadata.base],
+        css               = ['/assets/css/afa.css']
+    %}
   </head>
   <body>
     <main class="container">

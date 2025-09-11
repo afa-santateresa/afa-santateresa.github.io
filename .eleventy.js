@@ -1,5 +1,7 @@
 // docs: https://www.11ty.io/docs/config/
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
+import metagen from "eleventy-plugin-metagen"
+
 
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
@@ -43,6 +45,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginTOC);
   eleventyConfig.addPlugin(pluginRss);
 
+  eleventyConfig.addPlugin(metagen);
 
   eleventyConfig.addFilter("comAData", (dateObj) => {
     return DateTime.fromJSDate(dateObj)
