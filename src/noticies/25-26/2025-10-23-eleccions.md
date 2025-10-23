@@ -3,7 +3,7 @@ layout: layouts/default.njk
 tags: post
 curs: 25-26
 title: "Et necessitem per al Consell Escolar"
-description: 
+description: Enguany tenim eleccions al Consell Escolar el 19/11/25, i des de l’AFA demanem candidats/es per a presentar-se i també voluntaris/àries per a la mesa electoral, ja que és necessari per a formalitzar-la.
 date: 2025-09-16
 versio: 1
 image: /assets/imgs/2025-10-23-votacio.jpg
