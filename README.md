@@ -1,3 +1,4 @@
+![](static/imgs/banner_caro_horizontal_3.jpg)
 # Web de l'AFA del CEIP Santa Teresa
 
 Aquest es un lloc web estàtic desenvolupat amb el generador [Eleeventy](https://www.11ty.dev/).
