@@ -1,17 +1,22 @@
-/* Pink Light scheme (Default) */
+/* Purple Light scheme (Default) */
 /* Can be forced with data-theme="light" */
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
-  --background-color: #fcfcfc;
-  --color: #4e4b4e;
-  --primary: #9001ad;
-  --primary-hover: #7c0187;
-  --primary-focus: rgba(216, 27, 96, 0.125);
-  --primary-inverse: #FFF;
+  --pico-background-color: #fcfcfc;
+  --pico-color: #4e4b4e;
+  --pico-primary: #9001ad;
+  --pico-primary-background: #9001ad;
+  --pico-primary-border: var(--pico-primary-background);
+  --pico-primary-hover: #7c0187;
+  --pico-primary-hover-background: #7c0187;
+  --pico-primary-hover-border: var(--pico-primary-hover-background);
+  --pico-primary-focus: rgba(216, 27, 96, 0.125);
+  --pico-primary-inverse: #FFF;
+  --pico-primary-underline: rgba(144, 1, 173, 0.5);
 }
 
 body > main {
-    --block-spacing-vertical: calc(var(--spacing));
+    --pico-block-spacing-vertical: calc(var(--pico-spacing));
 }
 
 nav.toc  ol  ol{
@@ -28,7 +33,7 @@ article.comissio header {
     min-height: 70px;
 }
 article.comissio header h2 {
-    color: var(--color);
+    color: var(--pico-color);
     font-size: 24px;
     margin-bottom: 0;
 }
@@ -38,6 +43,23 @@ article.comissio header h2 {
 }
 .width-wide {
     display: none;
+}
+
+nav details.dropdown > summary::after {
+    display: none;
+}
+
+/* Right-align the dropdown panel under "Seccions" */
+nav details.dropdown > summary + ul {
+    right: 0;
+    left: auto;
+    width: auto;
+    text-align: right;
+}
+
+/* Style the dropdown items */
+nav details.dropdown > summary + ul li a {
+    text-decoration: none;
 }
 
 body header nav img {
@@ -60,16 +82,16 @@ body header nav img {
     padding: 3px 7px;
     background-color: rgba(255, 255, 255, 0.9);
     border: 1px solid blue;
-    border-color: var(--secondary);
+    border-color: var(--pico-secondary);
     border-radius: 5px;
 }
 .toc li a {
-    color: var(--secondary);
+    color: var(--pico-secondary);
 }
 
 /* Media queries */
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .width-small {
         display: none;
     }

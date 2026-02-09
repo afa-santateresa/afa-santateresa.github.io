@@ -60,13 +60,13 @@
           <li class="width-wide"><a href="{{seccio.url}}">{{ seccio.titol }}</a></li>
           {% endfor %}
           <li class="width-small">
-              <details role="list" dir="rtl">
-                  <summary aria-haspopup="listbox">
+              <details class="dropdown">
+                  <summary>
                       Seccions
                   </summary>
-                  <ul role="listbox">
+                  <ul>
                       {% for seccio in seccions %}
-                      <li role="option"><a href="{{seccio.url}}">{{ seccio.titol }}</a></li>
+                      <li><a href="{{seccio.url}}">{{ seccio.titol }}</a></li>
                       {% endfor %}
                   </ul>
               </details>
