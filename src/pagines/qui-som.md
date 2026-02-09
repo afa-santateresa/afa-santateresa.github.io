@@ -10,17 +10,17 @@ versio: 7
 
 ## Directiva
 
-* President: Vicent Badia Navarro
+* Presidenta: Mar Peralta Belinchon
 * Vicepresidenta: Esther López Barceló
 * Secretari:  Carlos Pedro Reig López
 * Tresorera: Zenaida González Pavía
 * Tresorer: Andreu Sambonet Esteve
 * Vocals:
+  * África Pons
+  * María Navarro Diego
   * Rafael Vicent Xambó Olmos
-  * Mar Peralta Belinchon
 
-[Acta de la renovació de la junta el 10 d'Octubre de 2024](/assets/docs/2024-10-10-acta-afa.pdf).
-
+<!-- [Acta de la renovació de la junta el 10 d'Octubre de 2024](/assets/docs/2024-10-10-acta-afa.pdf). -->
 
 ## Consell Escolar
 
