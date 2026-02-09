@@ -4,8 +4,8 @@ descripcio: Pàgina d'inici de la web de l'AFA del CEIP Santa Teresa amb una
   introducció a la associació i les dades de contacte.
 title: Benvinguts
 permalink: /
-actualitzat: 2025-09-05
-versio: 7
+actualitzat: 2026-02-09
+versio: 8
 ---
 
 Benvinguda o benvingut al web de l'Associació de Familiars d'Alumnes del CEIP Santa Teresa. Ací trobareu informació rellevant sobre l'AFA, el col·legi, [què fem](/que-fem) i [qui som](/qui-som).
@@ -44,8 +44,19 @@ Per al curs 2025-2026:
 
 Si tens qualsevol dubte, suggeriment, proposta, idea o el que siga no ho dubtes i **contacta** amb nosaltres. Ens encantarà ajudar-te! Així mateix, pots estar al dia de les activitats de l'AFA al nostre canal de **Telegram**.
 
-* 📧 <santateresa.ampa@gmail.com>
-* 📢 <https://t.me/AFACEIPSANTATERESA>
+* 📧 **Correu electrònic:** <santateresa.ampa@gmail.com>
+* 📢 **Canal de Telegram:** <https://t.me/AFACEIPSANTATERESA>
+
+---
+
+Altres correus electrònics:
+
+* **Tresoreria**: <afatresoreriasantateresa@gmail.com>
+* **Comissió extraescolars:** <extraescolarssantateresa@gmail.com>
+* **Comissió campament:** <afacampamentsantateresa@gmail.com>
+* **Comissió festes:** <festesstateresa@gmail.com>
+
+---
 
 🏦 El **compte** de l'AFA a *Caixa Popular* és:
 

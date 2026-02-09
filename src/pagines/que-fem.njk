@@ -4,8 +4,8 @@ permalink: /que-fem/
 title: Què fem
 description: >
   Llistat de grups de treball i dades de contacte
-actualitzat: 2024-01-29
-versio: 2
+actualitzat: 2026-02-09
+versio: 3
 ---
 
 <p>Aquestes són les comissions a través de les quals l'AFA coordina les diferents activitats de l'escola.</p>
@@ -19,14 +19,16 @@ versio: 2
 <p>
 {{ comissio.descripcio | safe }}
 </p>
-<footer>
 
+{% if comissio.email %}
+<footer>
 <p class="email"> 📬 
   {% for email in comissio.email %}
   <a href="mailto:{{ email }}">{{ email }}</a>{{ "" if loop.last else ", " }}
   {% endfor %}
 </p>  
-
 </footer>
+{% endif %}
+
 </article>
 {% endfor %}

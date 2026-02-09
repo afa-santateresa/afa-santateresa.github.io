@@ -4,23 +4,24 @@ descripcio: |
   Directori de persones a càrrec de la associació
 title: Qui som
 permalink: /qui-som/
-actualitzat: 2024-10-16
-versio: 7
+actualitzat: 2026-02-09
+versio: 8
 ---
 
 ## Directiva
 
-* Presidenta: Mar Peralta Belinchon
-* Vicepresidenta: Esther López Barceló
-* Secretari:  Carlos Pedro Reig López
-* Tresorera: Zenaida González Pavía
-* Tresorer: Andreu Sambonet Esteve
-* Vocals:
-  * África Pons
-  * María Navarro Diego
-  * Rafael Vicent Xambó Olmos
+<div style="text-align: center;">
+  {%- for membre in junta %}{% assign mod_start = forloop.index0 | modulo: 3 %}
+    {%- if mod_start == 0 %}<div class="grid row" style="margin-top: 3em;">{% endif %}
+    <div class="carrec col-{{mod_start}}">
+    <div style="font-weight:bold; min-height:3em;">{{membre.carrec}}</div>
+    <div><img style="max-width:65%;" src="/assets/imgs/carrecs/{{membre.foto}}"></div>
+    <div>{{membre.nom}}</div>
+    </div>
+    {%- assign mod_end = forloop.index | modulo: 3 %}{% if mod_end == 0 or forloop.last %}</div>{% endif %}
+  {%- endfor %}
+</div>
 
-<!-- [Acta de la renovació de la junta el 10 d'Octubre de 2024](/assets/docs/2024-10-10-acta-afa.pdf). -->
 
 ## Consell Escolar
 

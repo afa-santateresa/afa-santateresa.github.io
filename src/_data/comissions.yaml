@@ -1,31 +1,3 @@
-- id: menjador
-  nom: Menjador
-  email: 
-    - afamenjadorsantateresa@gmail.com
-  icona: 🥣 
-  descripcio: >
-    Treballa en la millora del servei de menjador oferit
-    a l'escola. Fa el seguiment en el menjador i fa propostes de millora.
-
-- id: convivencia
-  nom: Convivència i igualtat
-  email: 
-    - afaconvivenciasantateresa@gmail.com
-  icona: 🫂
-  descripcio: >
-    Organitza la impartició de cursos i xarrades sempre destinades a millorar la
-    convivència de la comunitat educativa. La mirada feminista és clau.
-
-- id: tresoreria
-  nom: Tresoreria
-  email: 
-    - afatresoreriasantateresa@gmail.com
-  icona: 👛
-  descripcio: >
-    Duu els comptes de l'associació en general. Rep les quotes dels socis i les subvencions. 
-    Fa els pagaments necessaris per al funcionament de l'AFA.
-    També fa els pagaments necessaris per a totes les eixides del col·le.
-
 - id: campament
   nom: Campament
   email: 
@@ -34,37 +6,23 @@
   descripcio: >
     Organitza el campament per a Primària que cada any es duu a terme l'última setmana de juny.
 
-- id: pati
-  nom: Per un pati més verd
-  icona: 🌳
-  email: 
-    - afapativerdsantateresa@gmail.com
-  descripcio: >
-    Fa propostes per a aconseguir un pati millor per a la nostra escola. 
-    També col·labora en la millora del soterrani del col·le.
-
 - id: comunicacio
   nom: Comunicació
-  email: 
-    - afacomunicaciosantateresa@gmail.com
   icona: 📢
   descripcio: >
     S'encarrega de fer arribar la informació a totes les famílies en un valencià ben cuidat.
     També duu endavant el web del col·le.
 
-- id: valencia
-  nom: Valencià
-  email: 
-    - afallenguasantateresa@gmail.com
-  icona: 🗣
+- id: convivencia
+  nom: Convivència i igualtat
+  icona: 🫂
   descripcio: >
-    Estableix converses en valencià per a les persones que volen practicar.
-    Acosta d'una manera fàcil i senzilla el valencià i la seua cultura a les famílies.
+    Organitza la impartició de cursos i xarrades sempre destinades a millorar la
+    convivència de la comunitat educativa. La mirada feminista és clau.
 
 - id: cultura
   nom: Cultura i festes
   email:
-    - afaculturasantateresa@gmail.com
     - festesstateresa@gmail.com
   icona: 🎼
   descripcio: >
@@ -79,3 +37,34 @@
   descripcio: >
     Organitza les activitats extraescolars de migdia i de vesprada, 
     l'escola matinera, la vespertina dels divendres i les de setembre i juny.
+
+- id: menjador
+  nom: Menjador
+  icona: 🥣 
+  descripcio: >
+    Treballa en la millora del servei de menjador oferit
+    a l'escola. Fa el seguiment en el menjador i fa propostes de millora.
+
+- id: pati
+  nom: Per un pati més verd
+  icona: 🌳
+  descripcio: >
+    Fa propostes per a aconseguir un pati millor per a la nostra escola. 
+    També col·labora en la millora del soterrani del col·le.
+
+- id: tresoreria
+  nom: Tresoreria
+  email: 
+    - afatresoreriasantateresa@gmail.com
+  icona: 👛
+  descripcio: >
+    Duu els comptes de l'associació en general. Rep les quotes dels socis i les subvencions. 
+    Fa els pagaments necessaris per al funcionament de l'AFA.
+    També fa els pagaments necessaris per a totes les eixides del col·le.
+
+- id: valencia
+  nom: Valencià
+  icona: 🗣
+  descripcio: >
+    Estableix converses en valencià per a les persones que volen practicar.
+    Acosta d'una manera fàcil i senzilla el valencià i la seua cultura a les famílies.

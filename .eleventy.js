@@ -33,12 +33,12 @@ export default async function (eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy({
-    "static/root/*": "/",
-    "static/css/*": "assets/css/",
-    "static/imgs/*": "assets/imgs/",
-    "static/favicon/*": "assets/favicon/",
-    "static/docs/*": "assets/docs/",
-    "static/admin/*": "admin/",
+    "static/root": "/",
+    "static/css": "assets/css",
+    "static/imgs": "assets/imgs",
+    "static/favicon": "assets/favicon",
+    "static/docs": "assets/docs",
+    "static/admin": "admin",
   });
 
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
