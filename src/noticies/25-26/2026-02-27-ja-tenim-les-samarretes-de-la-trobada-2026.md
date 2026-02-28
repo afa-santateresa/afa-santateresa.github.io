@@ -4,7 +4,7 @@ tags: post
 curs: 25-26
 title: Ja tenim les samarretes de la Trobada 2026!
 date: 2026-02-28
-versio: 2
+versio: 3
 ---
 Famílies, alumnat i professorat! Ja podeu encarregar la samarreta de la Trobada d'enguany.
 
@@ -12,7 +12,7 @@ La samarreta és de color blau i compta amb un disseny de la il·lustradora Vane
 
 > "Tenim història, som futur"
 
-![Imatge de la samarreta](/assets/imgs/image_20260228183844.jpg "Samarreta de la Trobada 2026")
+![Imatge de la samarreta](/assets/imgs/image_20260228183844.jpg)
 
 **📍 Cita de la Trobada:** enguany ens veiem el diumenge 10 de maig al CEIP Lluís de Santàngel del Saler. Anem tots i totes amb la samarreta!
 
@@ -20,9 +20,9 @@ La samarreta és de color blau i compta amb un disseny de la il·lustradora Vane
 
 Si la compres a l'escola:
 
-* Samarreta 10 €
-* Carpeta 3 €
-* 🔥 PACK (samarreta + carpeta) només 12 €!
+* Samarreta **10 €*"
+* Carpeta **3 €**
+* 🔥 PACK (samarreta + carpeta) només **12 €**!
   (Heu de tindre en compte que al web d'Escola Valenciana o a la mateixa Trobada el cost serà de 15 €) 
 
 ## Com fer la teua comanda?
