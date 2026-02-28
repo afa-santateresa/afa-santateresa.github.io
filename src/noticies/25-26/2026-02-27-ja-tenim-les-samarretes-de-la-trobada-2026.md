@@ -5,6 +5,7 @@ curs: 25-26
 title: Ja tenim les samarretes de la Trobada 2026!
 date: 2026-02-28
 versio: 4
+image:/assets/imgs/image_20260228183844.jpg
 ---
 Famílies, alumnat i professorat! Ja podeu encarregar la samarreta de la Trobada d'enguany. La samarreta és de color blau i compta amb un disseny de la il·lustradora Vane Julián amb l'eslògan:
 
