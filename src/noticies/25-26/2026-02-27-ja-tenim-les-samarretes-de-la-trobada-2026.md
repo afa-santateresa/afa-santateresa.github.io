@@ -27,12 +27,12 @@ Si la compres a l'escola:
 
 ## Com fer la teua comanda?
 
-* A l'escola: estarem el dimarts 3 de març davall de la porxada a les 16:30 h perquè les pugueu vore, encarregar-les i pagar-les en efectiu o per Bizum al 609930720. 
-* Per WhatsApp: pagament per Bizum. Envia un WhatsApp al mateix número indicant:
+* **A l'escola:** estarem el dimarts 3 de març davall de la porxada a les 16:30 h perquè les pugueu vore, encarregar-les i pagar-les en efectiu o per Bizum al 609930720. 
+* **Per WhatsApp:** pagament per Bizum. Envia un WhatsApp al mateix número indicant:
 
   * Nom i curs de l'alumne/a.
   * Talla i quantitat.
 
 Hi ha talles des de 1/2 fins a XL.
 
-Fem pinya per la nostra llengua! 🏠🗣️💙
+**Fem pinya per la nostra llengua! 🏠🗣️💙**
