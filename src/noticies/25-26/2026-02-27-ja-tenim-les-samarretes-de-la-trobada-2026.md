@@ -4,17 +4,17 @@ tags: post
 curs: 25-26
 title: Ja tenim les samarretes de la Trobada 2026!
 date: 2026-02-28
-versio: 3
+versio: 4
 ---
-Famílies, alumnat i professorat! Ja podeu encarregar la samarreta de la Trobada d'enguany.
+Famílies, alumnat i professorat! Ja podeu encarregar la samarreta de la Trobada d'enguany. La samarreta és de color blau i compta amb un disseny de la il·lustradora Vane Julián amb l'eslògan:
 
-La samarreta és de color blau i compta amb un disseny de la il·lustradora Vane Julián amb l'eslògan:
-
-> "Tenim història, som futur"
+> _Tenim història, som futur_
 
 ![Imatge de la samarreta](/assets/imgs/image_20260228183844.jpg)
 
-**📍 Cita de la Trobada:** enguany ens veiem el diumenge 10 de maig al CEIP Lluís de Santàngel del Saler. Anem tots i totes amb la samarreta!
+## Cita de la Trobada
+
+Enguany ens veiem el diumenge **10 de maig al CEIP Lluís de Santàngel del Saler**. Anem tots i totes amb la samarreta!
 
 ## Compra-la a l'escola!
 
