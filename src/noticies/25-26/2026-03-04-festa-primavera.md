@@ -4,8 +4,8 @@ tags: post
 curs: 25-26
 title: Festa de Primavera
 date: 2026-03-04
-versio: 1
-image: /assets/imgs/2026-03-04-flors.webp
+versio: 2
+image: /assets/imgs/2026-03-04-primavera-1.webp
 ---
 
 Amb molta il·lusió, us convidem a la nostra **Festa de Primavera**, que serà el **24 de març** a la vesprada. Creuem els dits perquè aquesta vegada el temps ens acompanye!
@@ -16,4 +16,7 @@ Us esperem per passar una vesprada divertida i amb molt bon ambient. Hi haurà x
 
 Serà una gran ocasió per retrobar-nos i celebrar junts l’arribada de la primavera.
 
-![Foto d'unes flors d'ametller](/assets/imgs/2026-03-04-flors.webp)
+![Cartell de la festa](/assets/imgs/2026-03-04-primavera-1.webp)
+
+![Cartell de la festa](/assets/imgs/2026-03-04-primavera-2.webp)
+
