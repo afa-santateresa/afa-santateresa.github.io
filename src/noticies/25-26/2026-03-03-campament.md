@@ -33,6 +33,6 @@ posant:
 
 🗒 Adjuntem un breu resum de les coses que es comentaren en la reunió.
 
-[Resum de la reunió (PDF)](/assets/docs/campament-2026.pdf)
+[Resum de la reunió (PDF)](/assets/docs/2026-03-03-campament-2026.pdf)
 
 📣 La fitxa d'inscripció s'omplirà digitalment quan l'envie l'empresa del campament.
