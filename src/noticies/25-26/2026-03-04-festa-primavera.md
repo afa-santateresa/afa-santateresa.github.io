@@ -3,7 +3,7 @@ layout: layouts/default.njk
 tags: post
 curs: 25-26
 title: Festa de Primavera
-date: 2026-03-03
+date: 2026-03-04
 versio: 1
 image: /assets/imgs/2026-03-04-flors.webp
 ---
