@@ -22,6 +22,27 @@ collections:
       - {label: "Versió", name: "versio", widget: "number", default: 1, value_type: "int"}
       - {label: "Contingut", name: "body", widget: "markdown"}
 
+  - name: "documents"
+    label: "Documents"
+    files:
+      - name: "documents"
+        label: "Documents de l'AFA"
+        file: "src/_data/documents.yaml"
+        fields:
+          - label: "Cursos"
+            name: "items"
+            widget: "list"
+            fields:
+              - {label: "Curs", name: "curs", widget: "string"}
+              - label: "Documents"
+                name: "documents"
+                widget: "list"
+                fields:
+                  - {label: "Tipus", name: "tipus", widget: "select", options: ["acta junta", "acta assemblea", "acta", "resum consell", "memòria", "document", "altres"]}
+                  - {label: "Data", name: "data", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD"}
+                  - {label: "Títol", name: "titol", widget: "string"}
+                  - {label: "URL o fitxer", name: "url", widget: "file", media_folder: "/static/docs", public_folder: "/assets/docs"}
+
   - name: "noticia"
     label: "Notícia curs 25-26"
     folder: "src/noticies/25-26"
@@ -34,6 +55,6 @@ collections:
       - {label: "Títol", name: "title", widget: "string"}
       - {label: "Data", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD"}
       - {label: "Imatge", name: "image", widget: "image", required: false}
-      - {label: "Fitxer", name: "fitxer", widget: "file", required: false}
+      - {label: "Fitxer", name: "fitxer", widget: "file", required: false, media_folder: "/static/docs", public_folder: "/assets/docs"}
       - {label: "Versió", name: "versio", widget: "number", default: 1, value_type: "int"}
       - {label: "Contingut", name: "body", widget: "markdown"}

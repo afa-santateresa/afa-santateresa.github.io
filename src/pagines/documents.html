@@ -8,8 +8,8 @@ versio: 2
 
 <p>{{ descripcio }}</p>
 
-{% if documents %}
-{% for doc in documents %}
+{% if documents.items %}
+{% for doc in documents.items %}
 <h3>{{doc.curs}}</h3>
 <ul>
     {% for doc in doc.documents %}

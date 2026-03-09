@@ -1,293 +1,294 @@
-- curs: "2025-2026"
-  documents:
-    - tipus: document
-      data: "2026-03-09"
-      titol: "Protocol per a subvencions a famílies vulnerables"
-      url: /assets/docs/protocol-per-a-subvencionar-families-vulnerables.pdf
-
-    - tipus: acta junta
-      data: "2026-01-29"
-      titol: ACTA ASSEMBLEA - 29 GENER 2026
-      url: /noticies/2026/02/09-assemblea-afa-29-de-gener/
-
-- curs: "2024-2025"
-  documents:
-    - tipus: acta junta
-      data: "2024-10-10"
-      titol: ACTA ASSEMBLEA - 10 OCTUBRE 2024
-      url: /assets/docs/2024-10-10-acta-afa.pdf
-
-- curs: "2020-2021"
-  documents:
-    - tipus: acta junta
-      data: "2021-06-17"
-      titol: JUNTA GENERAL ORDINÀRIA - 17 JUNY 2021
-      url: /assets/docs/2021-06-17-canvi-junta.pdf
-
-- curs: "2018-2019"
-  documents:
-    - tipus: acta assemblea
-      data: "2018-10-04"
-      titol: ACTA ASSEMBLEA 4 d'OCTUBRE de 2018
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2018/10/20181004-Asamblea-Junta.pdf
-
-- curs: "2017-2018"
-  documents:
-    - tipus: acta assemblea
-      data: "2018-06-20"
-      titol: ACTA ASSEMBLEA 20 JUNY  2018
-      url: http://arxiu.afasantateresa.es/wp-admin/upload.php?item=2806
-    - tipus: resum consell
-      data: "2018-05-18"
-      titol: RESUM CONSELL ESCOLAR 18 MAIG 2018
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2018/06/18.05.31_RESUM-CONSELL-ESCOLAR.pdf
-    - tipus: acta junta
-      data: "2017-11-07"
-      titol: ACTA JUNTA 7 NOVEMBRE 2017
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-junta-7.11.17.pdf
-    - tipus: acta junta
-      data: "2017-09-25"
-      titol: ACTA JUNTA 25 SETEMBRE 2017
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-25-dSEPTIEMBRE17.pdf
-    - tipus: acta assemblea
-      data: "2017-10-04"
-      titol: ACTA ASSEMBLEA 4 d'OCTUBRE de 2017
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-ASSEMBLEA-4-dOctubre17-1.pdf
-
-- curs: "2016-2017"
-  documents:
-    - tipus: memòria
-      data: "2017-07-01"
-      titol: MEMÒRIA AMPA CURS 2016-2017
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/MEM%C3%92RIA-AMPA-2016-17.pdf
-    - tipus: acta assemblea
-      data: "2017-06-14"
-      titol: ACTA   ASSEMBLEA  14 de JUNY de 2017
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-ASSEMBLEA-14-JUNY17.pdf
-    - tipus: acta junta
-      data: "2017-05-08"
-      titol: "ACTA JUNTA 8 Maig'17"
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-8-Maig17.pdf
-    - tipus: acta junta
-      data: "2017-04-30"
-      titol: "ACTA JUNTA 30 Abril'17"
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-30-Abril17.pdf
-    - tipus: acta junta
-      data: "2017-03-07"
-      titol: "ACTA JUNTA EXTRA 7 Març'17"
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-EXTRA-7-Marc%CC%A717.pdf
-    - tipus: acta junta
-      data: "2017-01-19"
-      titol: "ACTA JUNTA 19 Gener'17"
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-19-Gener17.pdf
-    - tipus: acta junta
-      data: "2016-12-13"
-      titol: "ACTA JUNTA 13 desembre'16"
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-13-desembre16.pdf
-    - tipus: resum consell
-      data: "2016-11-29"
-      titol: RESUM CONSELL 29 NOV16
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/RESUM-CONSELL-29-novembre16.pdf
-    - tipus: resum consell
-      data: "2016-11-10"
-      titol: RESUM CONSELL EXT 10 NOV 16
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/RESUM-CONSELL-EXTR.-10-novembre16.pdf
-    - tipus: resum consell
-      data: "2016-10-26"
-      titol: RESUM CONSELL EXT 26 OCT 16
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/RESUM-CONSELL-EXTR.-26-octubre16.pdf
-    - tipus: acta assemblea
-      data: "2016-10-06"
-      titol: ACTA ASSEMBLEA 6 OCT 16
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-ASSEMBLEA-6-OCT-16.pdf
-    - tipus: acta junta
-      data: "2016-10-03"
-      titol: ACTA JUNTA 3 OCT 2016
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-3-octubre16.pdf
-    - tipus: acta junta
-      data: "2016-09-22"
-      titol: ACTA JUNTA 22 SET 2016
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-22-setembre-16.pdf
-
-- curs: "2015-2016"
-  documents:
-    - tipus: resum consell
-      data: "2016-07-19"
-      titol: RESUM CONSELL ESCOLAR 19 JULIOL 16
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/RESUM-CONSELL-19-juliol16.pdf
-    - tipus: acta assemblea
-      data: "2016-06-16"
-      titol: ACTA ASSEMBLEA JUNY 2016
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-ASSEMBLEA-JUNY-16.pdf
-    - tipus: memòria
-      data: "2016-07-01"
-      titol: MEMÒRIA CURS 2015-16
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/MEM%C3%92RIA-CURS-2015-16.pdf
-    - tipus: resum consell
-      data: "2016-04-27"
-      titol: Resum Consell Escolar AMPA 27-04-2016
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-AMPA-27-04-2016.pdf
-    - tipus: resum consell
-      data: "2016-04-12"
-      titol: Resum Consell Escolar AMPA 12-04-2016
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-AMPA-12-04-2016.pdf
-    - tipus: acta assemblea
-      data: "2016-05-09"
-      titol: Acta Assemblea AMPA 9-05-2016
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Assemblea-AMPA-2-06-2016.pdf
-    - tipus: resum consell
-      data: "2016-01-26"
-      titol: Resum Consell Escolar AMPA 26-01-2016
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-AMPA-26-01-2016.pdf
-    - tipus: resum consell
-      data: "2015-10-29"
-      titol: Resum Consell Escolar 29/10/2015
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-29102015-.pdf
-    - tipus: acta assemblea
-      data: "2015-10-19"
-      titol: Acta Assemblea AMPA 19-10-2015
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Assemblea-AMPA-19-10-2015.pdf
-    - tipus: acta assemblea
-      data: "2015-10-15"
-      titol: Acta assemblea AMPA 15/10/2015
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-ASSEMBLEA-15-OCTUBRE15.pdf
-    - tipus: resum consell
-      data: "2015-10-13"
-      titol: Resum Consell Escolar 13/10/2015
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-13102015-.pdf
-    - tipus: acta junta
-      data: "2015-09-24"
-      titol: Acta Junta Directiva 24/09/2015
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Junta-Directiva-24092015.pdf
-    - tipus: resum consell
-      data: "2015-09-09"
-      titol: Resum Consell Escolar 09/09/2015
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-0092015.pdf
-
-- curs: "2014-2015"
-  documents:
-    - tipus: acta assemblea
-      data: "2015-06-18"
-      titol: Acta Assemblea AMPA 18/06/2015
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Assemblea-AMPA-18062015.pdf
-    - tipus: acta junta
-      data: "2015-05-11"
-      titol: Acta Junta Directiva 11/05/2015
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Junta-Directiva-11052015.pdf
-    - tipus: resum consell
-      data: "2015-04-28"
-      titol: Resum Consell Escolar 28/04/2015
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-28042015.pdf
-    - tipus: acta junta
-      data: "2015-04-21"
-      titol: Acta Junta Directiva 21/04/2015
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Junta-Directiva-21042015.pdf
-    - tipus: acta junta
-      data: "2015-02-25"
-      titol: Acta Junta Directiva 25/02/2015
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Junta-Directiva-25022015.pdf
-    - tipus: acta junta
-      data: "2015-02-05"
-      titol: Acta Junta Directiva 05/02/2015
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Junta-Directiva-05022015.pdf
-    - tipus: resum consell
-      data: "2015-01-27"
-      titol: Resum Consell Escolar 27/01/2015
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-27012015.pdf
-    - tipus: acta junta
-      data: "2014-11-27"
-      titol: Acta Junta Driercitva 27/11/2014
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Junta-Driercitva-27112014.pdf
-    - tipus: resum consell
-      data: "2014-10-30"
-      titol: Resum Consell Escolar 30/10/2014
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-30102014.pdf
-    - tipus: acta assemblea
-      data: "2014-10-16"
-      titol: Acta Assemblea AMPA 16/10/2014
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Assemblea-AMPA-16102014.pdf
-    - tipus: resum consell
-      data: "2014-10-01"
-      titol: Resum Consell Escolar Extraordinari 1/10/2014
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-Extraordinari-1102014.pdf
-
-- curs: "2013-2014"
-  documents:
-    - tipus: memòria
-      data: "2014-07-01"
-      titol: Resum Comptes Curs 2013/2014
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Comptes-Curs-20132014.pdf
-    - tipus: acta assemblea
-      data: "2014-06-19"
-      titol: Acta Assemblea AMPA 19/06/2014
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-ASSEMBLEA-19-JUNY-2014.pdf
-    - tipus: memòria
-      data: "2014-07-01"
-      titol: Memòria Curs 2013/2014
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Mem%C3%B2ria-Curs-20132014.pdf
-    - tipus: acta junta
-      data: "2014-05-28"
-      titol: Acta Junta Directiva 28 /05/2014
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-28-Maig-14.pdf
-    - tipus: resum consell
-      data: "2014-04-29"
-      titol: Resum Consell Escolar 29/04/2014
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/RESUM-CONSELL-ESCOLAR-29-ABRIL-14.pdf
-    - tipus: acta junta
-      data: "2014-04-10"
-      titol: Acta Junta Directiva 10/04/2014
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-10-ABRIL-2014.pdf
-    - tipus: resum consell
-      data: "2014-03-27"
-      titol: Resum del Consell Escolar 27/03/2014
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/RESUMEN-CONSELL-27-MARZO-2014.pdf
-    - tipus: acta assemblea
-      data: "2014-01-23"
-      titol: Acta Assemblea AMPA 23 /01/ 2014
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-ASSEMBLEA-23-DE-GENER-2014.pdf
-    - tipus: resum consell
-      data: "2014-01-07"
-      titol: Resum del Consell Escolar 7/01/2014
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/CONSELL-EXTRAORDINARI-7-DE-GENER-2014.pdf
-    - tipus: acta junta
-      data: "2013-12-10"
-      titol: Acta Junta Directiva 10/12/2013
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-11-DIC-2013.pdf
-    - tipus: acta junta
-      data: "2013-11-07"
-      titol: Acta Junta Directiva 07/11/2013
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/7_NOVIEMBRE_2013_ACTA_JUNTA_.pdf
-    - tipus: acta
-      data: "2013-11-18"
-      titol: Acta de nomenament de delegat AMPA 18/11/2013
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/18_NOV_2013_ACTA_NOMENAMENT_DELEGAT_AMPA.pdf
-    - tipus: acta junta
-      data: "2013-10-22"
-      titol: Acta Junta Directiva 22/10/2013
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/22_OCT_2013_ACTA_JUNTA.pdf
-    - tipus: acta assemblea
-      data: "2013-10-16"
-      titol: Acta Assemblea AMPA 16/10/2013
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/16_OCT_2013ACTA_ASSEMBLEA.pdf
-    - tipus: acta junta
-      data: "2013-09-25"
-      titol: Acta Junta Directiva 25/09/2013
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/25_DE_SETEMBRE_DE_2013_ACTA_JUNTA.pdf
-
-- curs: "2012-2013"
-  documents:
-    - tipus: memòria
-      data: "2013-07-01"
-      titol: Memòria 2012/2013
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/2012-2013_MEMORIA.pdf
-    - tipus: memòria
-      data: "2013-07-10"
-      titol: Memòria econòmica 2012/2013
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/2012-13_Economica_Memoria.pdf
-
-- curs: "2006-2007"
-  documents:
-    - tipus: altres
-      data: "2007-03-12"
-      titol: Estatuts Ampa Sta Teresa
-      url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Estatuts-Ampa-Sta-Teresa.pdf
+items:
+  - curs: "2025-2026"
+    documents:
+      - tipus: document
+        data: "2026-03-09"
+        titol: "Protocol per a subvencions a famílies vulnerables"
+        url: /assets/docs/protocol-per-a-subvencionar-families-vulnerables.pdf
+  
+      - tipus: acta junta
+        data: "2026-01-29"
+        titol: ACTA ASSEMBLEA - 29 GENER 2026
+        url: /noticies/2026/02/09-assemblea-afa-29-de-gener/
+  
+  - curs: "2024-2025"
+    documents:
+      - tipus: acta junta
+        data: "2024-10-10"
+        titol: ACTA ASSEMBLEA - 10 OCTUBRE 2024
+        url: /assets/docs/2024-10-10-acta-afa.pdf
+  
+  - curs: "2020-2021"
+    documents:
+      - tipus: acta junta
+        data: "2021-06-17"
+        titol: JUNTA GENERAL ORDINÀRIA - 17 JUNY 2021
+        url: /assets/docs/2021-06-17-canvi-junta.pdf
+  
+  - curs: "2018-2019"
+    documents:
+      - tipus: acta assemblea
+        data: "2018-10-04"
+        titol: ACTA ASSEMBLEA 4 d'OCTUBRE de 2018
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2018/10/20181004-Asamblea-Junta.pdf
+  
+  - curs: "2017-2018"
+    documents:
+      - tipus: acta assemblea
+        data: "2018-06-20"
+        titol: ACTA ASSEMBLEA 20 JUNY  2018
+        url: http://arxiu.afasantateresa.es/wp-admin/upload.php?item=2806
+      - tipus: resum consell
+        data: "2018-05-18"
+        titol: RESUM CONSELL ESCOLAR 18 MAIG 2018
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2018/06/18.05.31_RESUM-CONSELL-ESCOLAR.pdf
+      - tipus: acta junta
+        data: "2017-11-07"
+        titol: ACTA JUNTA 7 NOVEMBRE 2017
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-junta-7.11.17.pdf
+      - tipus: acta junta
+        data: "2017-09-25"
+        titol: ACTA JUNTA 25 SETEMBRE 2017
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-25-dSEPTIEMBRE17.pdf
+      - tipus: acta assemblea
+        data: "2017-10-04"
+        titol: ACTA ASSEMBLEA 4 d'OCTUBRE de 2017
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-ASSEMBLEA-4-dOctubre17-1.pdf
+  
+  - curs: "2016-2017"
+    documents:
+      - tipus: memòria
+        data: "2017-07-01"
+        titol: MEMÒRIA AMPA CURS 2016-2017
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/MEM%C3%92RIA-AMPA-2016-17.pdf
+      - tipus: acta assemblea
+        data: "2017-06-14"
+        titol: ACTA   ASSEMBLEA  14 de JUNY de 2017
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-ASSEMBLEA-14-JUNY17.pdf
+      - tipus: acta junta
+        data: "2017-05-08"
+        titol: "ACTA JUNTA 8 Maig'17"
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-8-Maig17.pdf
+      - tipus: acta junta
+        data: "2017-04-30"
+        titol: "ACTA JUNTA 30 Abril'17"
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-30-Abril17.pdf
+      - tipus: acta junta
+        data: "2017-03-07"
+        titol: "ACTA JUNTA EXTRA 7 Març'17"
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-EXTRA-7-Marc%CC%A717.pdf
+      - tipus: acta junta
+        data: "2017-01-19"
+        titol: "ACTA JUNTA 19 Gener'17"
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-19-Gener17.pdf
+      - tipus: acta junta
+        data: "2016-12-13"
+        titol: "ACTA JUNTA 13 desembre'16"
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-13-desembre16.pdf
+      - tipus: resum consell
+        data: "2016-11-29"
+        titol: RESUM CONSELL 29 NOV16
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/RESUM-CONSELL-29-novembre16.pdf
+      - tipus: resum consell
+        data: "2016-11-10"
+        titol: RESUM CONSELL EXT 10 NOV 16
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/RESUM-CONSELL-EXTR.-10-novembre16.pdf
+      - tipus: resum consell
+        data: "2016-10-26"
+        titol: RESUM CONSELL EXT 26 OCT 16
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/RESUM-CONSELL-EXTR.-26-octubre16.pdf
+      - tipus: acta assemblea
+        data: "2016-10-06"
+        titol: ACTA ASSEMBLEA 6 OCT 16
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-ASSEMBLEA-6-OCT-16.pdf
+      - tipus: acta junta
+        data: "2016-10-03"
+        titol: ACTA JUNTA 3 OCT 2016
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-3-octubre16.pdf
+      - tipus: acta junta
+        data: "2016-09-22"
+        titol: ACTA JUNTA 22 SET 2016
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-22-setembre-16.pdf
+  
+  - curs: "2015-2016"
+    documents:
+      - tipus: resum consell
+        data: "2016-07-19"
+        titol: RESUM CONSELL ESCOLAR 19 JULIOL 16
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/RESUM-CONSELL-19-juliol16.pdf
+      - tipus: acta assemblea
+        data: "2016-06-16"
+        titol: ACTA ASSEMBLEA JUNY 2016
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-ASSEMBLEA-JUNY-16.pdf
+      - tipus: memòria
+        data: "2016-07-01"
+        titol: MEMÒRIA CURS 2015-16
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/MEM%C3%92RIA-CURS-2015-16.pdf
+      - tipus: resum consell
+        data: "2016-04-27"
+        titol: Resum Consell Escolar AMPA 27-04-2016
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-AMPA-27-04-2016.pdf
+      - tipus: resum consell
+        data: "2016-04-12"
+        titol: Resum Consell Escolar AMPA 12-04-2016
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-AMPA-12-04-2016.pdf
+      - tipus: acta assemblea
+        data: "2016-05-09"
+        titol: Acta Assemblea AMPA 9-05-2016
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Assemblea-AMPA-2-06-2016.pdf
+      - tipus: resum consell
+        data: "2016-01-26"
+        titol: Resum Consell Escolar AMPA 26-01-2016
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-AMPA-26-01-2016.pdf
+      - tipus: resum consell
+        data: "2015-10-29"
+        titol: Resum Consell Escolar 29/10/2015
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-29102015-.pdf
+      - tipus: acta assemblea
+        data: "2015-10-19"
+        titol: Acta Assemblea AMPA 19-10-2015
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Assemblea-AMPA-19-10-2015.pdf
+      - tipus: acta assemblea
+        data: "2015-10-15"
+        titol: Acta assemblea AMPA 15/10/2015
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-ASSEMBLEA-15-OCTUBRE15.pdf
+      - tipus: resum consell
+        data: "2015-10-13"
+        titol: Resum Consell Escolar 13/10/2015
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-13102015-.pdf
+      - tipus: acta junta
+        data: "2015-09-24"
+        titol: Acta Junta Directiva 24/09/2015
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Junta-Directiva-24092015.pdf
+      - tipus: resum consell
+        data: "2015-09-09"
+        titol: Resum Consell Escolar 09/09/2015
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-0092015.pdf
+  
+  - curs: "2014-2015"
+    documents:
+      - tipus: acta assemblea
+        data: "2015-06-18"
+        titol: Acta Assemblea AMPA 18/06/2015
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Assemblea-AMPA-18062015.pdf
+      - tipus: acta junta
+        data: "2015-05-11"
+        titol: Acta Junta Directiva 11/05/2015
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Junta-Directiva-11052015.pdf
+      - tipus: resum consell
+        data: "2015-04-28"
+        titol: Resum Consell Escolar 28/04/2015
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-28042015.pdf
+      - tipus: acta junta
+        data: "2015-04-21"
+        titol: Acta Junta Directiva 21/04/2015
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Junta-Directiva-21042015.pdf
+      - tipus: acta junta
+        data: "2015-02-25"
+        titol: Acta Junta Directiva 25/02/2015
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Junta-Directiva-25022015.pdf
+      - tipus: acta junta
+        data: "2015-02-05"
+        titol: Acta Junta Directiva 05/02/2015
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Junta-Directiva-05022015.pdf
+      - tipus: resum consell
+        data: "2015-01-27"
+        titol: Resum Consell Escolar 27/01/2015
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-27012015.pdf
+      - tipus: acta junta
+        data: "2014-11-27"
+        titol: Acta Junta Driercitva 27/11/2014
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Junta-Driercitva-27112014.pdf
+      - tipus: resum consell
+        data: "2014-10-30"
+        titol: Resum Consell Escolar 30/10/2014
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-30102014.pdf
+      - tipus: acta assemblea
+        data: "2014-10-16"
+        titol: Acta Assemblea AMPA 16/10/2014
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Acta-Assemblea-AMPA-16102014.pdf
+      - tipus: resum consell
+        data: "2014-10-01"
+        titol: Resum Consell Escolar Extraordinari 1/10/2014
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Consell-Escolar-Extraordinari-1102014.pdf
+  
+  - curs: "2013-2014"
+    documents:
+      - tipus: memòria
+        data: "2014-07-01"
+        titol: Resum Comptes Curs 2013/2014
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Resum-Comptes-Curs-20132014.pdf
+      - tipus: acta assemblea
+        data: "2014-06-19"
+        titol: Acta Assemblea AMPA 19/06/2014
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-ASSEMBLEA-19-JUNY-2014.pdf
+      - tipus: memòria
+        data: "2014-07-01"
+        titol: Memòria Curs 2013/2014
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Mem%C3%B2ria-Curs-20132014.pdf
+      - tipus: acta junta
+        data: "2014-05-28"
+        titol: Acta Junta Directiva 28 /05/2014
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-28-Maig-14.pdf
+      - tipus: resum consell
+        data: "2014-04-29"
+        titol: Resum Consell Escolar 29/04/2014
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/RESUM-CONSELL-ESCOLAR-29-ABRIL-14.pdf
+      - tipus: acta junta
+        data: "2014-04-10"
+        titol: Acta Junta Directiva 10/04/2014
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-10-ABRIL-2014.pdf
+      - tipus: resum consell
+        data: "2014-03-27"
+        titol: Resum del Consell Escolar 27/03/2014
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/RESUMEN-CONSELL-27-MARZO-2014.pdf
+      - tipus: acta assemblea
+        data: "2014-01-23"
+        titol: Acta Assemblea AMPA 23 /01/ 2014
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-ASSEMBLEA-23-DE-GENER-2014.pdf
+      - tipus: resum consell
+        data: "2014-01-07"
+        titol: Resum del Consell Escolar 7/01/2014
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/CONSELL-EXTRAORDINARI-7-DE-GENER-2014.pdf
+      - tipus: acta junta
+        data: "2013-12-10"
+        titol: Acta Junta Directiva 10/12/2013
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/ACTA-JUNTA-11-DIC-2013.pdf
+      - tipus: acta junta
+        data: "2013-11-07"
+        titol: Acta Junta Directiva 07/11/2013
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/7_NOVIEMBRE_2013_ACTA_JUNTA_.pdf
+      - tipus: acta
+        data: "2013-11-18"
+        titol: Acta de nomenament de delegat AMPA 18/11/2013
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/18_NOV_2013_ACTA_NOMENAMENT_DELEGAT_AMPA.pdf
+      - tipus: acta junta
+        data: "2013-10-22"
+        titol: Acta Junta Directiva 22/10/2013
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/22_OCT_2013_ACTA_JUNTA.pdf
+      - tipus: acta assemblea
+        data: "2013-10-16"
+        titol: Acta Assemblea AMPA 16/10/2013
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/16_OCT_2013ACTA_ASSEMBLEA.pdf
+      - tipus: acta junta
+        data: "2013-09-25"
+        titol: Acta Junta Directiva 25/09/2013
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/25_DE_SETEMBRE_DE_2013_ACTA_JUNTA.pdf
+  
+  - curs: "2012-2013"
+    documents:
+      - tipus: memòria
+        data: "2013-07-01"
+        titol: Memòria 2012/2013
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/2012-2013_MEMORIA.pdf
+      - tipus: memòria
+        data: "2013-07-10"
+        titol: Memòria econòmica 2012/2013
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/2012-13_Economica_Memoria.pdf
+  
+  - curs: "2006-2007"
+    documents:
+      - tipus: altres
+        data: "2007-03-12"
+        titol: Estatuts Ampa Sta Teresa
+        url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Estatuts-Ampa-Sta-Teresa.pdf
