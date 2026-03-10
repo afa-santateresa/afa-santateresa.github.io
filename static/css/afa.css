@@ -63,8 +63,9 @@ nav details.dropdown > summary + ul li a {
 }
 
 body header nav img {
-    max-width: 100%;
+    max-width: 200px;
 }
+
 
 .container main p.data {
     font-style: italic;
@@ -77,16 +78,38 @@ body header nav img {
 }
 
 
-.toc li {
-    margin: 5px;
-    padding: 3px 7px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 1px solid blue;
-    border-color: var(--pico-secondary);
-    border-radius: 5px;
+nav.toc ol {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
 }
+
+.toc li {
+    margin: 0;
+    padding: 0.35rem 0.9rem;
+    background-color: rgba(255, 255, 255, 0.92);
+    border: 1.5px solid var(--pico-primary);
+    border-radius: 2rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.15s, box-shadow 0.15s;
+}
+
+.toc li:hover {
+    background-color: var(--pico-primary);
+    box-shadow: 0 2px 8px rgba(144, 1, 173, 0.25);
+}
+
 .toc li a {
-    color: var(--pico-secondary);
+    color: var(--pico-primary);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.toc li:hover a {
+    color: #fff;
 }
 
 /* Media queries */
@@ -96,11 +119,41 @@ body header nav img {
         display: none;
     }
     .width-wide {
-        display: block;
+        display: flex;
     }
 
-    body header nav img {
-        max-width: 400px;
+    body > main > header > nav > ul:first-child {
+        flex: 0 0 auto;
+    }
+
+    body > main > header > nav > ul:last-child {
+        flex: 1 1 auto;
+        gap: 0;
+        align-items: stretch;
+        justify-content: flex-end;
+    }
+
+    li.width-wide {
+        flex: 0 1 auto;
+    }
+
+    li.width-wide a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        white-space: normal;
+        line-height: 1.2;
+        padding: 0.4rem 0.65rem;
+        font-size: 0.95rem;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+        transition: border-color 0.15s, background-color 0.15s;
+    }
+
+    li.width-wide a:hover {
+        background-color: color-mix(in srgb, var(--pico-primary) 8%, transparent);
+        border-bottom-color: var(--pico-primary);
     }
 
 
@@ -114,11 +167,78 @@ body header nav img {
         background-image: url('/assets/imgs/banner_caro_horizontal_3.jpg')
     }
     .toc li {
-        background-color: rgba(255, 255, 255, 0.6);
+        background-color: rgba(255, 255, 255, 0.8);
     }
 }
 
 .youtube-video {
     aspect-ratio: 16 / 9;
     width: 100%;
+}
+
+/* Document filter pills */
+#doc-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1.5rem;
+    justify-content: flex-start;
+}
+
+#doc-filters .doc-filter {
+    --filter-color: var(--pico-primary);
+    padding: 0.2rem 0.65rem;
+    font-size: 0.75rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 1px solid var(--filter-color);
+    background: transparent;
+    color: var(--filter-color);
+    margin-bottom: 0;
+    line-height: 1.4;
+    width: auto;
+    flex-grow: 0;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+#doc-filters .doc-filter.active {
+    background: var(--filter-color);
+    color: #fff;
+}
+
+#doc-filters .doc-filter:hover:not(.active) {
+    background: color-mix(in srgb, var(--filter-color) 10%, transparent);
+}
+
+.doc-group ul {
+    padding-left: 0;
+}
+
+.doc-group ul li {
+    list-style-type: none;
+}
+
+/* Document entries */
+.doc-entry {
+    line-height: 1.6;
+}
+
+.doc-badge {
+    --filter-color: var(--pico-primary);
+    display: inline;
+    padding: 0.1rem 0.55rem;
+    font-size: 0.7rem;
+    border-radius: 1rem;
+    background: color-mix(in srgb, var(--filter-color) 12%, white);
+    color: var(--filter-color);
+    white-space: nowrap;
+    font-weight: 600;
+    vertical-align: text-top;
+    margin-right: 0.2rem;
+}
+
+.doc-data {
+    color: var(--pico-muted-color);
+    font-size: 0.8rem;
+    white-space: nowrap;
 }

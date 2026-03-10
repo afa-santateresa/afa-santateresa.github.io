@@ -8,8 +8,6 @@ actualitzat: 2026-02-09
 versio: 8
 ---
 
-## Directiva
-
 <div style="text-align: center;">
   {%- for membre in junta %}{% assign mod_start = forloop.index0 | modulo: 3 %}
     {%- if mod_start == 0 %}<div class="grid row" style="margin-top: 3em;">{% endif %}
@@ -22,15 +20,3 @@ versio: 8
   {%- endfor %}
 </div>
 
-
-## Consell Escolar
-
-* Anna Albiach
-* Cinta Espino Narváez
-* Eva Pablos
-* Mado Almela
-* Mar Riera
-* Mercè Coves
-* Paola Franco
-* Raquel Tortosa
-* Santiago Sánchez

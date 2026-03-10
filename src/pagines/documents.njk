@@ -1,0 +1,73 @@
+---
+layout: layouts/default.njk
+permalink: /documents/
+title: Documents de l'AFA
+descripcio: Llistat de documents com memòries, resums de consells, etc.
+versio: 2
+---
+
+<p>{{ descripcio }}</p>
+
+<nav id="doc-filters" aria-label="Filtra per tipus de document">
+  <button class="doc-filter active" data-filter="tots">Tots</button>
+  {% for tipus, info in tipusDocuments %}
+  <button class="doc-filter" data-filter="{{ info.slug }}" style="--filter-color: {{ info.color }}">{{ info.etiqueta }}</button>
+  {% endfor %}
+</nav>
+
+{% if documents.items %}
+{% for group in documents.items %}
+<section class="doc-group">
+  <h3>{{ group.curs }}</h3>
+  <ul>
+    {% for doc in group.documents %}
+    <li class="doc-entry" data-tipus="{{ tipusDocuments[doc.tipus].slug if tipusDocuments[doc.tipus] else doc.tipus }}">
+      <span class="doc-badge" style="--filter-color: {{ tipusDocuments[doc.tipus].color if tipusDocuments[doc.tipus] else 'var(--pico-primary)' }}">{{ tipusDocuments[doc.tipus].etiqueta if tipusDocuments[doc.tipus] else doc.tipus }}</span>
+      <a href="{{ doc.url }}">{{ doc.titol }}</a>
+      <time class="doc-data">{{ doc.data }}</time>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% endif %}
+
+<script>
+(function() {
+  var filters = document.querySelectorAll('.doc-filter');
+  var entries = document.querySelectorAll('.doc-entry');
+  var groups = document.querySelectorAll('.doc-group');
+
+  function applyFilter(slug) {
+    filters.forEach(function(btn) {
+      btn.classList.toggle('active', btn.dataset.filter === slug);
+    });
+
+    entries.forEach(function(entry) {
+      entry.style.display = (slug === 'tots' || entry.dataset.tipus === slug) ? '' : 'none';
+    });
+
+    groups.forEach(function(group) {
+      var hasVisible = group.querySelector('.doc-entry:not([style*="display: none"])');
+      group.style.display = hasVisible ? '' : 'none';
+    });
+  }
+
+  filters.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var slug = btn.dataset.filter;
+      history.replaceState(null, '', slug === 'tots' ? location.pathname : '#' + slug);
+      applyFilter(slug);
+    });
+  });
+
+  function filterFromHash() {
+    var hash = location.hash.replace('#', '');
+    var validSlugs = Array.from(filters).map(function(b) { return b.dataset.filter; });
+    applyFilter(hash && validSlugs.indexOf(hash) !== -1 ? hash : 'tots');
+  }
+
+  window.addEventListener('hashchange', filterFromHash);
+  filterFromHash();
+})();
+</script>

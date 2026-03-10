@@ -1,0 +1,16 @@
+"acta assemblea":
+  etiqueta: "Acta d'Assemblea"
+  slug: "acta-assemblea"
+  color: "#d63384"
+"consell":
+  etiqueta: "Consell Escolar"
+  slug: "resum-consell"
+  color: "#4a90d9"
+"memòria":
+  etiqueta: "Memòria"
+  slug: "memoria"
+  color: "#2ea84f"
+"document":
+  etiqueta: "Document"
+  slug: "document"
+  color: "#e0950e"
