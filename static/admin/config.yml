@@ -56,5 +56,6 @@ collections:
       - {label: "Data", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD"}
       - {label: "Imatge", name: "image", widget: "image", required: false}
       - {label: "Fitxer", name: "fitxer", widget: "file", required: false, media_folder: "/static/docs", public_folder: "/assets/docs"}
+      - {label: "Esborrany", name: "draft", widget: "boolean", default: false, required: false}
       - {label: "Versió", name: "versio", widget: "number", default: 1, value_type: "int"}
       - {label: "Contingut", name: "body", widget: "markdown"}

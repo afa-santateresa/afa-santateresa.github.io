@@ -5,6 +5,7 @@ import metagen from "eleventy-plugin-metagen"
 
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
+import markdownItAttrs from "markdown-it-attrs";
 import pluginTOC from "eleventy-plugin-toc";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 
@@ -12,16 +13,21 @@ import { DateTime } from "luxon";
 import yaml from "js-yaml";
 
 export default async function (eleventyConfig) {
+  eleventyConfig.addPreprocessor("drafts", "*", (data) => {
+    if (data.draft === true && process.env.ELEVENTY_RUN_MODE === "build") {
+      return false;
+    }
+  });
+
   // Options for the `markdown-it` library
   const markdownItOptions = { html: true };
 
   // Options for the `markdown-it-anchor` library
   const markdownItAnchorOptions = { permalink: false };
 
-  const markdownLib = markdownIt(markdownItOptions).use(
-    markdownItAnchor,
-    markdownItAnchorOptions
-  );
+  const markdownLib = markdownIt(markdownItOptions)
+    .use(markdownItAnchor, markdownItAnchorOptions)
+    .use(markdownItAttrs);
 
   eleventyConfig.setLibrary("md", markdownLib);
 

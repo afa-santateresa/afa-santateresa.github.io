@@ -77,6 +77,13 @@ body header nav img {
     cursor: inherit;
 }
 
+.img-centrada {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+}
+
 
 nav.toc ol {
     list-style: none;
