@@ -28,6 +28,4 @@ Horari de la jornada:
 
 [Programació PDF](/assets/docs/2026-05-08-programacio-trobada-2026.pdf)
 
-![Cartell de les Trobades 2026](/assets/imgs/2026-04-24-cartell-trobades.webp)
-
-{.img-centrada}
+![Cartell de les Trobades 2026](/assets/imgs/2026-04-24-cartell-trobades.webp){.img-centrada}
