@@ -178,6 +178,18 @@ nav.toc ol {
     }
 }
 
+.callout {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--pico-primary);
+    border-top: 2px solid var(--pico-primary);
+    border-bottom: 2px solid var(--pico-primary);
+    padding: 0.75rem 1rem;
+    margin: 1.5rem auto;
+}
+
 .youtube-video {
     aspect-ratio: 16 / 9;
     width: 100%;

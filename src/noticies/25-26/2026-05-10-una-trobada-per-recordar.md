@@ -23,4 +23,4 @@ A aquelles famílies que hui no heu pogut vindre, us hem trobat a faltar i us es
 
 Gràcies per fer del CEIP Santa Teresa una escola viva, activa i valenciana.
 
-### "Tenim història, som futur".
+"Tenim història, som futur". {.callout}
