@@ -22,7 +22,7 @@
     "js-yaml": "^4.1.0",
     "luxon": "^3.4.4",
     "markdown-it-anchor": "^9.2.0",
-    "markdown-it-attrs": "^4.3.1"
+    "markdown-it-attrs": "^5.0.0"
   },
   "engines": {
     "node": ">=20"
