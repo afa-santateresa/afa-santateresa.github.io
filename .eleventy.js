@@ -10,7 +10,7 @@ import pluginTOC from "eleventy-plugin-toc";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 
 import { DateTime } from "luxon";
-import yaml from "js-yaml";
+import { load as yamlLoad } from "js-yaml";
 
 export default async function (eleventyConfig) {
   eleventyConfig.addPreprocessor("drafts", "*", (data) => {
@@ -80,7 +80,7 @@ export default async function (eleventyConfig) {
       .replace(` del ${dateObj.getFullYear()}`, "");
   });
 
-  eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
+  eleventyConfig.addDataExtension("yaml", (contents) => yamlLoad(contents));
 
   eleventyConfig.addCollection("postsByYear", (collection) => {
     const posts = collection.getFilteredByTag("post").reverse();
