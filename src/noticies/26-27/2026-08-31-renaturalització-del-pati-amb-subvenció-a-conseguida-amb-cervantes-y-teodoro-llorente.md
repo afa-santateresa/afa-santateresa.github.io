@@ -5,7 +5,7 @@ curs: 25-26
 title: Renaturalització del pati amb subvenció a conseguida amb Cervantes y
   Teodoro Llorente
 date: 2026-09-01
-image: assets/imgs/pati_santa_teresa.jpg
+image: /assets/imgs/pati_santa_teresa.jpg
 draft: false
 versio: 1
 ---
