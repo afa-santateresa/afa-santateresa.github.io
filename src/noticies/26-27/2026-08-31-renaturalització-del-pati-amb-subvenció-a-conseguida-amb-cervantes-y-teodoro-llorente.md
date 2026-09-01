@@ -11,6 +11,6 @@ versio: 1
 ---
 Junt amb els CEIP Cervantes i Teodoro Llorente hem demanat una beca per a la renaturalització del pati. Ens han concedit 500 € amb la condició que l’AFA hi dedique la mateixa quantitat. En total, el projecte ha suposat 1.318,90€ i s’ha emprat en reparar els sostres de les pèrgoles i reforçar la xarxa de protecció de l’hort. 
 
-![Pati](assets/imgs/pati.jpg "Pati")
+![Pati](static/imgs/pati.jpg "Pati")
 
 "Entre totes i tots fem escola" {.callout}
