@@ -1,4 +1,10 @@
 items:
+  - curs: 2026-2027
+    documents:
+      - tipus: altres
+        data: 2026-09-14
+        titol: Catáleg extraescolars Santa Teresa curs 2026-2027
+        url: /assets/docs/cataleg-extraescolars-santa-teresa-2026-2027.pdf
   - curs: 2025-2026
     documents:
       - tipus: document
@@ -322,9 +328,3 @@ items:
         data: 2007-03-12
         titol: Estatuts AMPA Sta Teresa
         url: http://arxiu.afasantateresa.es/wp-content/uploads/2014/04/Estatuts-Ampa-Sta-Teresa.pdf
-  - curs: 2026-2027
-    documents:
-      - tipus: altres
-        data: 2026-09-14
-        titol: Catáleg extraescolars Santa Teresa curs 2026-2027
-        url: /assets/docs/cataleg-extraescolars-santa-teresa-2026-2027.pdf
