@@ -9,3 +9,5 @@ draft: false
 versio: 1
 ---
 Bon dia famílies! Us enviem el catàleg d'extraescolars 2026-27. El termini d'inscripció comença hui a les 9h i estarà disponible fins al dia 23 de setembre.
+
+[Catáleg extraescolars Santa Teresa curs 2026-2027](/assets/docs/cataleg-extr…nta-teresa-2026-2027.pdf)
