@@ -1,7 +1,7 @@
 ---
 layout: layouts/default.njk
 tags: post
-curs: 25-26
+curs: 26-27
 title: Renaturalització del pati amb subvenció a conseguida amb Cervantes y
   Teodoro Llorente
 date: 2026-09-01
