@@ -4,10 +4,10 @@
 - carrec: Secretari
   nom: Carlos Reig
   foto: carlos_reig.webp
-- carrec: Vicepresident C. Extraescolars
+- carrec: Vicepresident<br>C. Extraescolars
   nom: Guille Biot
   foto: guille_biot.webp
-- carrec: Representant Consell C. Menjador
+- carrec: Consell escolar<br>C. Menjador
   nom: María Navarro
   foto: maria_navarro.webp
 - carrec: Tresorera
@@ -16,12 +16,9 @@
 - carrec: Tresorer
   nom: Andreu Sambonet
   foto: andreu_sambonet.webp
-- carrec: Vocal C. Valencià
-  nom: Rafa Xambó
-  foto: rafa_xambo.webp
-- carrec: Vocal C. Campament
+- carrec: Vocal<br>C. Campament
   nom: Africa Pons
   foto: africa_pons.webp
-- carrec: Vocal C. Extraescolars
+- carrec: Vocal<br>C. Extraescolars
   nom: Mario Mañá
   foto: mario_maña.webp
