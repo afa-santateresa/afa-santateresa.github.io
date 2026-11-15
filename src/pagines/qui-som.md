@@ -8,15 +8,13 @@ actualitzat: 2026-09-17
 versio: 8
 ---
 
-<div style="text-align: center;">
-  {%- for membre in junta %}{% assign mod_start = forloop.index0 | modulo: 4 %}
-    {%- if mod_start == 0 %}<div class="grid row" style="margin-top: 3em;">{% endif %}
-    <div class="carrec col-{{mod_start}}">
-    <div style="font-weight:bold; min-height:3em;">{{membre.carrec}}</div>
-    <div><img style="max-width:65%;" src="/assets/imgs/carrecs/{{membre.foto}}"></div>
-    <div>{{membre.nom}}</div>
-    </div>
-    {%- assign mod_end = forloop.index | modulo: 4 %}{% if mod_end == 0 or forloop.last %}</div>{% endif %}
-  {%- endfor %}
+<div class="junta">
+{%- for membre in junta %}
+<div class="carrec">
+<div class="carrec-titol">{{ membre.carrec }}</div>
+<div class="carrec-foto"><img src="/assets/imgs/carrecs/{{ membre.foto }}" alt="{{ membre.nom }}" loading="lazy"></div>
+<div class="carrec-nom">{{ membre.nom }}</div>
+</div>
+{%- endfor %}
 </div>
 

@@ -10,11 +10,12 @@ versio: 3
 
 <p>Aquestes són les comissions a través de les quals l'AFA coordina les diferents activitats de l'escola.</p>
 
-
+<div class="comissions">
 {% for comissio in comissions %}
-<article class="comissio" id="{{ comissio.id  }}">
+<section class="comissio" id="{{ comissio.id }}">
 <header>
-<h2>{{comissio.icona}} {{ comissio.nom }}</h2>
+<span class="icona" aria-hidden="true">{{ comissio.icona }}</span>
+<h2>{{ comissio.nom }}</h2>
 </header>
 <p>
 {{ comissio.descripcio | safe }}
@@ -22,13 +23,14 @@ versio: 3
 
 {% if comissio.email %}
 <footer>
-<p class="email"> 📬 
+<p class="email"> 📬
   {% for email in comissio.email %}
   <a href="mailto:{{ email }}">{{ email }}</a>{{ "" if loop.last else ", " }}
   {% endfor %}
-</p>  
+</p>
 </footer>
 {% endif %}
 
-</article>
+</section>
 {% endfor %}
+</div>

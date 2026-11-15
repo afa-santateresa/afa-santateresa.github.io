@@ -9,21 +9,24 @@ versio: 8
 ---
 
 Benvinguda o benvingut al web de l'Associació de Familiars d'Alumnes del CEIP Santa Teresa. Ací trobareu informació rellevant sobre l'AFA, el col·legi, [què fem](/que-fem) i [qui som](/qui-som).
+{.lead}
 
 ## Últimes notícies de l'AFA
 
-{% assign posts = collections.post | reverse  | slice: 0, 5%}
-{% for post in posts%}
-* [{{ post.data.title }}]({{ post.url }}) - {{ post.date | comAMesIDia}}
+<ul class="llista-noticies">
+{%- assign posts = collections.post | reverse | slice: 0, 5 %}
+{%- for post in posts %}
+<li><a href="{{ post.url }}">{{ post.data.title | escape }}</a><time datetime="{{ post.date | comADataISO }}">{{ post.date | comAMesIDia }}</time></li>
 {%- endfor %}
+</ul>
 
-[Accedir a totes les notícies](/noticies)
+[Accedir a totes les notícies](/noticies){.mes-noticies}
 
 ## El Santa Teresa
 
 ### 📓 Dades bàsiques
 
-* 📫 **Adreça**: Carrer de l'Hort d'en Cendra, 3, 46003, València
+* 📫 **Adreça**: [Carrer de l'Hort d'en Cendra, 3, 46003, València](https://maps.app.goo.gl/aKTmdM6MvTyQJrpE6)
 * ☎ **Telèfon**: [962 566 740](tel:+34962566740)
 * 📧 **Correu centre**: <46012136@edu.gva.es>
 * 📧 **Correu menjador**: <menjadorceipsantateresa@gmail.com>
