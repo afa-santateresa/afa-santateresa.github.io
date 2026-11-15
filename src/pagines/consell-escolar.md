@@ -10,15 +10,14 @@ versio: 0
 
 El Consell Escolar del CEIP Santa Teresa està format per:
 
-* Anna Albiach
-* Cinta Espino Narváez
-* Eva Pablos
-* Mado Almela
-* Mar Riera
-* Mercè Coves
-* Paola Franco
-* Raquel Tortosa
-* Santiago Sánchez
+<div class="junta is-compact">
+{%- for membre in consell %}
+<div class="carrec">
+<div class="carrec-avatar"><img src="{% if membre.foto %}/assets/imgs/carrecs/{{ membre.foto }}{% else %}/assets/imgs/avatar.svg{% endif %}" alt="" loading="lazy"></div>
+<div class="carrec-nom">{{ membre.nom }}</div>
+</div>
+{%- endfor %}
+</div>
 
 ## Documents del Consell Escolar
 

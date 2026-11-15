@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="ca" data-theme="light">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
@@ -8,6 +10,13 @@
     <link rel="manifest" href="/site.webmanifest">
 
     <title>{{ title or siteData.name }}</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,0..100;1,9..144,300..700,0..100&family=Nunito:ital,wght@0,400..800;1,400..700&display=swap"
+    >
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
@@ -45,79 +54,77 @@
     %}
   </head>
   <body>
-    <main class="container">
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="/">
-              <img alt="Logo de l'AFA" src="/assets/imgs/logo_afa_color_500_fons_transparent.png"/>
-            </a>
-          </li>
-        </ul>
-        <ul>
-          {% for seccio in seccions %}
-          <li class="width-wide"><a href="{{seccio.url}}">{{ seccio.titol }}</a></li>
-          {% endfor %}
-          <li class="width-small">
-              <details class="dropdown">
-                  <summary>
-                      Seccions
-                  </summary>
-                  <ul>
-                      {% for seccio in seccions %}
-                      <li><a href="{{seccio.url}}">{{ seccio.titol }}</a></li>
-                      {% endfor %}
-                  </ul>
-              </details>
-          </li>
-      </ul>
-      </nav>
-    </header>
-    <article>
-      <header>
-        <h1>
-          {{title}}
-        </h1>
-        {% if content | toc %}
-            {{ content | toc | safe }}
-        {% endif %}
-      </header>
-      <main>
-        {% if actualitzat or date %}
-        <p class="data">
-        {% if actualitzat %}
-        Actualitzat a <span data-tooltip="Versió {{ versio }}"  data-placement="bottom">
-        <time datetime="{{actualitzat | comADataISO}}">{{ actualitzat | comAData }}</time>
-        </span>
-        {% endif %}
-        {% if date %}
-        <span data-tooltip="Versió {{ versio }}"  data-placement="bottom">
-          <time datetime="{{date | comADataISO}}">{{ date | comAData }}</time>
-        </span>
-        {% endif %}
-        </p>
-        {% endif %}
+    <a class="skip-link" href="#contingut">Salta al contingut</a>
 
-        {{ content | safe }}
-      </main>
-    </article>
-    <footer class="container">
-      <small>
-        <nav>
-          <ul>
-            <li>
-              {{ siteData.name }} | Il·lustració Virginia Lorente per a <a href="https://www.atypicalvalencia.com/">atypicalvalencia.com</a>
-            </li>
+    <header class="site-header">
+      <div class="wrap">
+        <nav class="site-nav" aria-label="Seccions del web">
+          <a class="brand" href="/">
+            <img alt="Logo de l'AFA del CEIP Santa Teresa" src="/assets/imgs/logo_afa_color_500_fons_transparent.png" width="500" height="271"/>
+          </a>
+
+          <ul class="nav-links">
+            {% for seccio in seccions %}
+            {% set actiu = (page.url == seccio.url) or (seccio.url != "/" and page.url.startsWith(seccio.url)) %}
+            <li><a href="{{ seccio.url }}"{% if actiu %} aria-current="page"{% endif %}>{{ seccio.titol }}</a></li>
+            {% endfor %}
           </ul>
-          <ul>
-            <li>              
-              <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca">{{ page.date | comAny }}&copy;</a> 
-            </li>
-          </ul>
+
+          <details class="nav-menu">
+            <summary>
+              <span>Menú</span>
+              <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+            </summary>
+            <ul>
+              {% for seccio in seccions %}
+              {% set actiu = (page.url == seccio.url) or (seccio.url != "/" and page.url.startsWith(seccio.url)) %}
+              <li><a href="{{ seccio.url }}"{% if actiu %} aria-current="page"{% endif %}>{{ seccio.titol }}</a></li>
+              {% endfor %}
+            </ul>
+          </details>
         </nav>
-      </small>
-    </footer>
+      </div>
+    </header>
+
+    <main class="wrap" id="contingut">
+      <div class="page">
+        <header class="page-hero">
+          <h1>{{ title }}</h1>
+          {% if content | toc %}
+            {{ content | toc | safe }}
+          {% endif %}
+        </header>
+
+        <div class="page-body">
+          {% if actualitzat or date %}
+          <p class="data">
+            {% if actualitzat %}
+            Actualitzat el <span data-tooltip="Versió {{ versio }}" data-placement="bottom">
+              <time datetime="{{ actualitzat | comADataISO }}">{{ actualitzat | comAData }}</time>
+            </span>
+            {% endif %}
+            {% if date %}
+            <span data-tooltip="Versió {{ versio }}" data-placement="bottom">
+              <time datetime="{{ date | comADataISO }}">{{ date | comAData }}</time>
+            </span>
+            {% endif %}
+          </p>
+          {% endif %}
+
+          {{ content | safe }}
+        </div>
+      </div>
     </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>{{ siteData.name }}</p>
+        <p>
+          Il·lustració de Virginia Lorente per a <a href="https://www.atypicalvalencia.com/">atypicalvalencia.com</a>
+          ·
+          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca">{{ page.date | comAny }}&copy;</a>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

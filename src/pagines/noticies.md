@@ -9,9 +9,11 @@ description: >
 {% for items in collections.postsPerCurs %}
 ## {{items | slice: 0}}
 
-{% for post in items[1] %}
-* [{{ post.data.title }}]({{ post.url }}) - {{ post.date | comAMesIDia}}
+<ul class="llista-noticies">
+{%- for post in items[1] %}
+<li><a href="{{ post.url }}">{{ post.data.title | escape }}</a><time datetime="{{ post.date | comADataISO }}">{{ post.date | comAMesIDia }}</time></li>
 {%- endfor %}
+</ul>
 {% endfor %}
 
 [![Icona del feed Atom](/assets/imgs/feed.png)](/feed.xml)
