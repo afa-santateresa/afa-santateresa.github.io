@@ -26,7 +26,7 @@ Benvinguda o benvingut al web de l'Associació de Familiars d'Alumnes del CEIP S
 
 ### 📓 Dades bàsiques
 
-* 📫 **Adreça**: Carrer de l'Hort d'en Cendra, 3, 46003, València
+* 📫 **Adreça**: [Carrer de l'Hort d'en Cendra, 3, 46003, València](https://maps.app.goo.gl/aKTmdM6MvTyQJrpE6)
 * ☎ **Telèfon**: [962 566 740](tel:+34962566740)
 * 📧 **Correu centre**: <46012136@edu.gva.es>
 * 📧 **Correu menjador**: <menjadorceipsantateresa@gmail.com>

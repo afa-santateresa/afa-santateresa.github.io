@@ -101,8 +101,7 @@ body {
 
 /* Pico afegeix padding a body > main / header / footer: ho gestionem nosaltres */
 body > header.site-header,
-body > main,
-body > footer.site-footer {
+body > main {
   padding-block: 0;
 }
 
@@ -782,20 +781,51 @@ a { text-underline-offset: 0.2em; text-decoration-thickness: 2px; }
 
 /* --- Peu ------------------------------------------------------------------ */
 .site-footer {
-  margin-top: 2rem;
-  padding: 2.5rem 0 3rem;
+  margin-top: 3.5rem;
+  padding: 2.25rem 0 2.5rem;
   background: var(--footer-bg);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
   color: var(--ink-soft);
   font-size: 0.9rem;
-}
-.site-footer .wrap {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 0.5rem 2rem;
+  text-align: center;
 }
 .site-footer p { margin: 0; }
-.site-footer a { color: var(--accent-strong); }
+.site-footer a {
+  color: var(--accent-strong);
+  font-weight: 700;
+  text-decoration: none;
+}
+.site-footer a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--peach);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.25em;
+}
+
+/* Llicència Creative Commons */
+.site-footer .llicencia { margin-top: 0.9rem; }
+.site-footer .cc-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+.site-footer .cc-link:hover { text-decoration: none; color: var(--accent-strong); }
+.site-footer .cc-link:hover .cc-text {
+  text-decoration: underline;
+  text-decoration-color: var(--peach);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.25em;
+}
+.cc-icons { display: inline-flex; gap: 0.2rem; }
+.cc-icons img {
+  display: block;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin: 0;
+  opacity: 0.85;
+}
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }

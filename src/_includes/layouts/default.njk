@@ -118,11 +118,16 @@
 
     <footer class="site-footer">
       <div class="wrap">
-        <p>{{ siteData.name }}</p>
         <p>
           Il·lustració de Virginia Lorente per a <a href="https://www.atypicalvalencia.com/">atypicalvalencia.com</a>
-          ·
-          <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca">{{ page.date | comAny }}&copy;</a>
+        </p>
+        <p class="llicencia">
+          <a class="cc-link" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" target="_blank" rel="license noopener noreferrer">
+            <span class="cc-text">{{ page.date | comAny }}&copy; · CC BY-NC-ND 4.0</span>
+            <span class="cc-icons" aria-hidden="true">
+              <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" width="22" height="22" loading="lazy">
+            </span>
+          </a>
         </p>
       </div>
     </footer>
